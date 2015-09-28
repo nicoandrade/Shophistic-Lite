@@ -1619,7 +1619,7 @@ Payments Options
 /*Comments																	 */
 /*===========================================================================*/
 #comments {
-  margin-bottom: 70px;
+  margin: 70px 0;
 }
 #comments h3 {
   margin-top: 0;
@@ -5708,6 +5708,9 @@ input[type="submit"] {
 	// ------------------
 	*/
 @media (min-width: 768px) and (max-width: 1345px) {
+  .container {
+    width: 96%;
+  }
   /*
 	Header
 	========================================== 

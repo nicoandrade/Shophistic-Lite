@@ -9,7 +9,6 @@ class shophistic_lite_Theme {
 	 * Here are loaded all the initial files, constant, etc.
 	 */
 	function __construct($theme_info){
-	
 
 		/* Define theme's constants. */
 		$this->constants($theme_info);
@@ -35,7 +34,6 @@ class shophistic_lite_Theme {
 		/* Customizer */
 		$this->customizer();
 
-		
 	}
 	
 	
@@ -208,8 +206,6 @@ class shophistic_lite_Theme {
 
 		//WooCommerce Support		
 		shophistic_lite_require_file("/woocommerce_support.php", SHOPHISTIC_FUNCTIONS, CHILD_SHOPHISTIC_FUNCTIONS);
-
-		
 
 	}
 	
