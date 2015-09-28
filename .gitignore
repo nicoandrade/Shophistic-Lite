@@ -41,4 +41,4 @@ Thumbs.db
 
 # OS generated files #
 ######################
-.codekit
+*.codekit
