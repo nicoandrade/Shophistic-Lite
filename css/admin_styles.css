@@ -1,0 +1,13 @@
+#optionsframework .section-info {
+  border-bottom: 1px solid #eee;
+  margin-top: 30px;
+  padding: 10px;
+  line-height: 18px;
+}
+.section-info .heading {
+  font-size: 18px;
+  margin: 0;
+}
+.bsf-update-nag, .rs-update-notice-wrap{
+	display: none;
+}

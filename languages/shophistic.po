@@ -1,0 +1,1307 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Shophistic\n"
+"POT-Creation-Date: 2015-08-27 16:20-0300\n"
+"PO-Revision-Date: 2015-08-27 16:20-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:7
+msgid "Error 404 - Not Found"
+msgstr ""
+
+#: 404.php:8
+msgid ""
+"Sorry, but the requested resource was not found on this site. Please try "
+"again or contact the administrator for assistance."
+msgstr ""
+
+#: comments.php:8
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:16
+msgid "No Responses"
+msgstr ""
+
+#: comments.php:16
+msgid "One Response"
+msgstr ""
+
+#: comments.php:16
+msgid "% Responses"
+msgstr ""
+
+#: comments.php:74
+msgid "Comment"
+msgstr ""
+
+#: comments.php:86
+msgid "Name"
+msgstr ""
+
+#: comments.php:95
+msgid "Email"
+msgstr ""
+
+#: comments.php:104
+msgid "Website"
+msgstr ""
+
+#: framework/Theme.php:182
+msgid "Navigation Menu"
+msgstr ""
+
+#: framework/Theme.php:183
+msgid "Social"
+msgstr ""
+
+#: framework/admin/inc/includes/class-options-framework-admin.php:91
+#: framework/admin/inc/includes/class-options-framework-admin.php:92
+msgid "Theme Options"
+msgstr ""
+
+#: framework/admin/inc/includes/class-options-framework-admin.php:203
+msgid "Save Options"
+msgstr ""
+
+#: framework/admin/inc/includes/class-options-framework-admin.php:204
+msgid "Restore Defaults"
+msgstr ""
+
+#: framework/admin/inc/includes/class-options-framework-admin.php:204
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: framework/admin/inc/includes/class-options-framework-admin.php:235
+msgid "Default options restored."
+msgstr ""
+
+#: framework/admin/inc/includes/class-options-framework-admin.php:289
+msgid "Options saved."
+msgstr ""
+
+#: framework/admin/inc/includes/class-options-media-uploader.php:62
+msgid "No file chosen"
+msgstr ""
+
+#: framework/admin/inc/includes/class-options-media-uploader.php:65
+#: framework/admin/inc/includes/class-options-media-uploader.php:118
+msgid "Upload"
+msgstr ""
+
+#: framework/admin/inc/includes/class-options-media-uploader.php:67
+#: framework/admin/inc/includes/class-options-media-uploader.php:119
+msgid "Remove"
+msgstr ""
+
+#: framework/admin/inc/includes/class-options-media-uploader.php:70
+msgid "Upgrade your version of WordPress for full media support."
+msgstr ""
+
+#: framework/admin/inc/includes/class-options-media-uploader.php:94
+msgid "View File"
+msgstr ""
+
+#: framework/admin/inc/includes/class-options-sanitization.php:316
+msgid "No Repeat"
+msgstr ""
+
+#: framework/admin/inc/includes/class-options-sanitization.php:317
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: framework/admin/inc/includes/class-options-sanitization.php:318
+msgid "Repeat Vertically"
+msgstr ""
+
+#: framework/admin/inc/includes/class-options-sanitization.php:319
+msgid "Repeat All"
+msgstr ""
+
+#: framework/admin/inc/includes/class-options-sanitization.php:331
+msgid "Top Left"
+msgstr ""
+
+#: framework/admin/inc/includes/class-options-sanitization.php:332
+msgid "Top Center"
+msgstr ""
+
+#: framework/admin/inc/includes/class-options-sanitization.php:333
+msgid "Top Right"
+msgstr ""
+
+#: framework/admin/inc/includes/class-options-sanitization.php:334
+msgid "Middle Left"
+msgstr ""
+
+#: framework/admin/inc/includes/class-options-sanitization.php:335
+msgid "Middle Center"
+msgstr ""
+
+#: framework/admin/inc/includes/class-options-sanitization.php:336
+msgid "Middle Right"
+msgstr ""
+
+#: framework/admin/inc/includes/class-options-sanitization.php:337
+msgid "Bottom Left"
+msgstr ""
+
+#: framework/admin/inc/includes/class-options-sanitization.php:338
+msgid "Bottom Center"
+msgstr ""
+
+#: framework/admin/inc/includes/class-options-sanitization.php:339
+msgid "Bottom Right"
+msgstr ""
+
+#: framework/admin/inc/includes/class-options-sanitization.php:351
+msgid "Scroll Normally"
+msgstr ""
+
+#: framework/admin/inc/includes/class-options-sanitization.php:352
+msgid "Fixed in Place"
+msgstr ""
+
+#: framework/admin/inc/includes/class-options-sanitization.php:424
+#: options.php:406 options.php:438
+msgid "Normal"
+msgstr ""
+
+#: framework/admin/inc/includes/class-options-sanitization.php:425
+msgid "Italic"
+msgstr ""
+
+#: framework/admin/inc/includes/class-options-sanitization.php:426
+#: options.php:406 options.php:438
+msgid "Bold"
+msgstr ""
+
+#: framework/admin/inc/includes/class-options-sanitization.php:427
+msgid "Bold Italic"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:333
+#: framework/functions/ql_tgm_plugin_activation.php:101
+msgid "Install Required Plugins"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:334
+#: framework/functions/ql_tgm_plugin_activation.php:102
+msgid "Install Plugins"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:335
+#: framework/functions/ql_tgm_plugin_activation.php:103
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:336
+#: framework/functions/ql_tgm_plugin_activation.php:104
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:338
+#: framework/functions/ql_tgm_plugin_activation.php:105
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/functions/class-tgm-plugin-activation.php:343
+#: framework/functions/ql_tgm_plugin_activation.php:106
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/functions/class-tgm-plugin-activation.php:348
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/functions/class-tgm-plugin-activation.php:353
+#: framework/functions/ql_tgm_plugin_activation.php:111
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/functions/class-tgm-plugin-activation.php:358
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/functions/class-tgm-plugin-activation.php:363
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/functions/class-tgm-plugin-activation.php:368
+#: framework/functions/ql_tgm_plugin_activation.php:108
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/functions/class-tgm-plugin-activation.php:373
+#: framework/functions/ql_tgm_plugin_activation.php:109
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/functions/class-tgm-plugin-activation.php:378
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/functions/class-tgm-plugin-activation.php:383
+#: framework/functions/ql_tgm_plugin_activation.php:113
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/functions/class-tgm-plugin-activation.php:388
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/functions/class-tgm-plugin-activation.php:393
+#: framework/functions/ql_tgm_plugin_activation.php:114
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/functions/class-tgm-plugin-activation.php:397
+#: framework/functions/ql_tgm_plugin_activation.php:115
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:398
+msgid "Return to the dashboard"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:399
+#: framework/functions/class-tgm-plugin-activation.php:3029
+#: framework/functions/ql_tgm_plugin_activation.php:116
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:400
+#: framework/functions/class-tgm-plugin-activation.php:2832
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/functions/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:402
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:403
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:520
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:521
+msgid "Update Required"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:635
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:828
+#: framework/functions/class-tgm-plugin-activation.php:3438
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:935
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:935
+#: framework/functions/class-tgm-plugin-activation.php:938
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:938
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:1116
+#: framework/functions/class-tgm-plugin-activation.php:2828
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:1881
+#, php-format
+msgctxt "%s = version number"
+msgid "TGMPA v%s"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2167
+msgid "Required"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2170
+msgid "Recommended"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2186
+msgid "WordPress Repository"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2189
+msgid "External Source"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2192
+msgid "Pre-Packaged"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2209
+msgid "Not Installed"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2213
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2215
+msgid "Active"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2221
+msgid "Required Update not Available"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2224
+msgid "Requires Update"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2227
+msgid "Update recommended"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2235
+#, php-format
+msgctxt "%1$s = install status, %2$s = update status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2280
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2283
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2286
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2289
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2371
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2379
+msgid "Installed version:"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2387
+msgid "Minimum required version:"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2399
+msgid "Available version:"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2422
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2436
+msgid "Plugin"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2437
+msgid "Source"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2438
+msgid "Type"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2442
+msgid "Version"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2443
+msgid "Status"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2491
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Install %2$s"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2495
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Update %2$s"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2500
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Activate %2$s"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2570
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2603
+msgid "Install"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2609
+msgid "Update"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2612
+msgid "Activate"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2643
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2645
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2681
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2683
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2788
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:2814
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:3028
+msgid "Plugin activation failed."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:3362
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:3364
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:3365
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:3369
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:3370
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:3370
+#: framework/functions/class-tgm-plugin-activation.php:3376
+msgid "Show Details"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:3370
+#: framework/functions/class-tgm-plugin-activation.php:3376
+msgid "Hide Details"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:3371
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:3372
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:3375
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:3376
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:3377
+msgid "All installations have been completed."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:3378
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/functions/custom_comments.php:26
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: framework/functions/custom_comments.php:38
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: framework/functions/custom_comments.php:40
+msgid "(Edit)"
+msgstr ""
+
+#: framework/functions/custom_functions.php:5
+msgid "Read more"
+msgstr ""
+
+#: framework/functions/ql_tgm_plugin_activation.php:107
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/functions/ql_tgm_plugin_activation.php:110
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/functions/ql_tgm_plugin_activation.php:112
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/functions/ql_tgm_plugin_activation.php:117
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: framework/functions/theme_customizer.php:36
+msgid "Layout"
+msgstr ""
+
+#: framework/functions/theme_customizer.php:55
+#: framework/functions/theme_customizer.php:107
+msgid "Right"
+msgstr ""
+
+#: framework/functions/theme_customizer.php:56
+#: framework/functions/theme_customizer.php:108
+msgid "Left"
+msgstr ""
+
+#: framework/functions/theme_customizer.php:74
+msgid "Header Color"
+msgstr ""
+
+#: framework/meta_boxes/config-meta-boxes.php:47
+msgid "Link"
+msgstr ""
+
+#: framework/meta_boxes/config-meta-boxes.php:56
+msgid "Display Title and Description"
+msgstr ""
+
+#: framework/meta_boxes/config-meta-boxes.php:61
+msgid "No"
+msgstr ""
+
+#: framework/meta_boxes/config-meta-boxes.php:62
+msgid "Yes"
+msgstr ""
+
+#: framework/meta_boxes/config-meta-boxes.php:70
+msgid "Video"
+msgstr ""
+
+#: framework/plugins/easy_installer/admin/backend.php:71
+msgid "One Click Installer"
+msgstr ""
+
+#: framework/plugins/easy_installer/admin/backend.php:74
+msgid ""
+"Welcome to One Click Installer, with this you can setup site in matter of "
+"minutes. <br>Some Points to note, make sure this is a <strong>fresh "
+"installation</strong> and while installer is running <strong>please do not "
+"refresh the page</strong>. <br>A notification will show after demo has been "
+"installed. <br>Importing the demo site is for test purpose, for your site is "
+"better start from scratch. All images will be replace for dummy image, this "
+"speed up the import process and avoid copyright issues."
+msgstr ""
+
+#: framework/plugins/easy_installer/admin/backend.php:93
+msgid "Install Content"
+msgstr ""
+
+#: framework/plugins/easy_installer/admin/importer/parsers.php:43
+#: framework/plugins/easy_installer/admin/importer/parsers.php:75
+#: framework/plugins/easy_installer/admin/importer/parsers.php:83
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: framework/plugins/easy_installer/admin/importer/parsers.php:44
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: framework/plugins/easy_installer/admin/importer/parsers.php:87
+#: framework/plugins/easy_installer/admin/importer/parsers.php:92
+#: framework/plugins/easy_installer/admin/importer/parsers.php:283
+#: framework/plugins/easy_installer/admin/importer/parsers.php:469
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:112
+#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:121
+#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:171
+#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:175
+#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:184
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:113
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:176
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:192
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:242
+msgid "Assign Authors"
+msgstr ""
+
+#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:243
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:245
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:255
+msgid "Import Attachments"
+msgstr ""
+
+#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:258
+msgid "Download and import file attachments"
+msgstr ""
+
+#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:262
+msgid "Submit"
+msgstr ""
+
+#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:275
+msgid "Import author:"
+msgstr ""
+
+#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:286
+msgid "or create new user with login name:"
+msgstr ""
+
+#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:289
+msgid "as a new user:"
+msgstr ""
+
+#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:297
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:299
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:300
+msgid "- Select -"
+msgstr ""
+
+#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:521
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:738
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:745
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:808
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:821
+msgid "Invalid file type"
+msgstr ""
+
+#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:865
+msgid "Remote server did not respond"
+msgstr ""
+
+#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:871
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:878
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:883
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:889
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:988
+msgid "Import WordPress"
+msgstr ""
+
+#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:995
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:1010
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:1011
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:1085
+msgid ""
+"Import <strong>posts, pages, comments, custom fields, categories, and tags</"
+"strong> from a WordPress export file."
+msgstr ""
+
+#: meta.php:10
+msgid "No Comments"
+msgstr ""
+
+#: meta.php:10
+msgid "1 Comment"
+msgstr ""
+
+#: meta.php:10
+msgid "% Comments"
+msgstr ""
+
+#: options.php:42
+msgid "One"
+msgstr ""
+
+#: options.php:43
+msgid "Two"
+msgstr ""
+
+#: options.php:44
+msgid "Three"
+msgstr ""
+
+#: options.php:45
+msgid "Four"
+msgstr ""
+
+#: options.php:46
+msgid "Five"
+msgstr ""
+
+#: options.php:52
+msgid "French Toast"
+msgstr ""
+
+#: options.php:53
+msgid "Pancake"
+msgstr ""
+
+#: options.php:54
+msgid "Omelette"
+msgstr ""
+
+#: options.php:55
+msgid "Crepe"
+msgstr ""
+
+#: options.php:56
+msgid "Waffle"
+msgstr ""
+
+#: options.php:131
+msgid "General Settings"
+msgstr ""
+
+#: options.php:136
+msgid "Theme Info"
+msgstr ""
+
+#: options.php:162
+msgid "Sidebar side"
+msgstr ""
+
+#: options.php:163
+msgid "Select if you want the Sidebar on the right or left."
+msgstr ""
+
+#: options.php:179 options.php:230
+msgid "Header"
+msgstr ""
+
+#: options.php:183
+msgid "Custom Logo"
+msgstr ""
+
+#: options.php:184
+msgid ""
+"Upload a logo for your theme, or specify the image address of your online "
+"logo. (http://yoursite.com/logo.png)"
+msgstr ""
+
+#: options.php:189
+msgid "Custom Logo Retina size"
+msgstr ""
+
+#: options.php:190
+msgid "Upload the logo for retina screens. (Same logo, twice the size)"
+msgstr ""
+
+#: options.php:200
+msgid "Styling"
+msgstr ""
+
+#: options.php:205
+msgid "Featured Color"
+msgstr ""
+
+#: options.php:206
+msgid "Select the featured color for the Theme."
+msgstr ""
+
+#: options.php:213
+msgid "Contrast Color"
+msgstr ""
+
+#: options.php:214
+msgid "This color should contrast with the Featured Color."
+msgstr ""
+
+#: options.php:222
+msgid "Headings Color"
+msgstr ""
+
+#: options.php:223
+msgid "Select the background color for the Theme."
+msgstr ""
+
+#: options.php:235
+msgid "Text Color"
+msgstr ""
+
+#: options.php:236
+msgid "Select the color for text in the header."
+msgstr ""
+
+#: options.php:243
+msgid "Links Color"
+msgstr ""
+
+#: options.php:244
+msgid "Select the color for links in the header (not main menu)."
+msgstr ""
+
+#: options.php:256
+msgid "Custom CSS"
+msgstr ""
+
+#: options.php:257
+msgid "Quickly add some CSS to your theme by adding it to this block."
+msgstr ""
+
+#: options.php:278
+msgid "Footer Text"
+msgstr ""
+
+#: options.php:279
+msgid "Custom HTML and Text that will appear at the bottom of your site."
+msgstr ""
+
+#: options.php:285
+msgid "Designed by Quema Labs"
+msgstr ""
+
+#: options.php:286
+msgid ""
+"If you are happy with the Theme you can give us credit just by adding a "
+"small link."
+msgstr ""
+
+#: options.php:292
+msgid "Payment Methods Icons"
+msgstr ""
+
+#: options.php:297
+msgid "Paypal"
+msgstr ""
+
+#: options.php:298
+msgid "Show Paypal Icon"
+msgstr ""
+
+#: options.php:304
+msgid "American Express"
+msgstr ""
+
+#: options.php:305
+msgid "Show American Express Icon"
+msgstr ""
+
+#: options.php:311
+msgid "Discover"
+msgstr ""
+
+#: options.php:312
+msgid "Show Discover Icon"
+msgstr ""
+
+#: options.php:318
+msgid "Master Card"
+msgstr ""
+
+#: options.php:319
+msgid "Show Master Card Icon"
+msgstr ""
+
+#: options.php:325
+msgid "Stripe"
+msgstr ""
+
+#: options.php:326
+msgid "Show Stripe Icon"
+msgstr ""
+
+#: options.php:332
+msgid "Visa"
+msgstr ""
+
+#: options.php:333
+msgid "Show Visa Icon"
+msgstr ""
+
+#: options.php:346
+msgid "Shop"
+msgstr ""
+
+#: options.php:350
+msgid "Show sidebar on Single Products page"
+msgstr ""
+
+#: options.php:351
+msgid "Select if you want the Shop Sidebar on your single product page."
+msgstr ""
+
+#: options.php:373
+msgid "Typography"
+msgstr ""
+
+#: options.php:378
+msgid "Content Typography"
+msgstr ""
+
+#: options.php:383
+msgid "Content Font"
+msgstr ""
+
+#: options.php:384
+msgid "Select the font for your text."
+msgstr ""
+
+#: options.php:392
+msgid "Content Font Color"
+msgstr ""
+
+#: options.php:393
+msgid "Select the color for your text."
+msgstr ""
+
+#: options.php:400
+msgid "Content Font Weight"
+msgstr ""
+
+#: options.php:401
+msgid "Select the font weight for your text."
+msgstr ""
+
+#: options.php:410
+msgid "Links Typography"
+msgstr ""
+
+#: options.php:415
+msgid "Links Font"
+msgstr ""
+
+#: options.php:416
+msgid "Select the font for your links."
+msgstr ""
+
+#: options.php:424
+msgid "Links Font Color"
+msgstr ""
+
+#: options.php:425
+msgid "Select the color for your links."
+msgstr ""
+
+#: options.php:432
+msgid "Links Font Weight"
+msgstr ""
+
+#: options.php:433
+msgid "Select the font wheight for your links."
+msgstr ""
+
+#: options.php:441 options.php:446
+msgid "Font Systems"
+msgstr ""
+
+#: options.php:447
+msgid "Use a font system (Google Fonts)"
+msgstr ""
+
+#: options.php:472
+msgid "Sidebars Generator"
+msgstr ""
+
+#: options.php:476
+msgid "Sidebars"
+msgstr ""
+
+#: pagination.php:11
+msgid "Previous page"
+msgstr ""
+
+#: pagination.php:12
+msgid "Next page"
+msgstr ""
+
+#: templates/beforeloop-search.php:4
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: templates/content-none.php:2
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for."
+msgstr ""
+
+#: templates/content-page.php:26 templates/content.php:26
+msgid "Page"
+msgstr ""
+
+#: templates/header.php:78
+msgid "My Account"
+msgstr ""
+
+#: templates/header.php:81
+msgid "Login"
+msgstr ""
+
+#: woocommerce/single-product/product-image.php:63
+msgid "Placeholder"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Shophistic"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://www.quemalabs.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A Premium WooCommerce Theme."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Quema Labs"
+msgstr ""
