@@ -25,9 +25,6 @@
 
 	<div id="wrap">
 
-		<div id="ql_search_header">
-            <?php get_product_search_form( true ); ?>
-        </div>
             <header id="header">
                 <div class="container">
                     <div class="row">
@@ -71,44 +68,36 @@
                             <div class="clearfix"></div>
 
                         </div><!-- col-md-8 -->
+                        
+                        <?php 
+                        if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) { 
+                        ?>
+                            <div class="login_cart_wrap col-md-3 col-xs-12">
+                                
+                                <div class="ql_cart_wrap">
+                                    <button href="<?php echo esc_url( WC()->cart->get_cart_url() ); ?>" class="ql_cart-btn">
+                                        <?php echo wp_kses_post( WC()->cart->get_cart_total() ); ?>
+                                        <span class="count">(<?php echo esc_html( WC()->cart->cart_contents_count );?>)</span>
+                                        <i class="ql-bag"></i><i class="ql-chevron-down"></i>
+                                    </button>
 
-                        <div class="login_cart_wrap col-md-3 col-xs-12">
-                            <?php 
-                            if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) { 
-                            ?> 
-                              <div class="ql_cart_wrap">
-                                <button href="<?php echo esc_url( WC()->cart->get_cart_url() ); ?>" class="ql_cart-btn">
-                                    <?php echo wp_kses_post( WC()->cart->get_cart_total() ); ?>
-                                    <span class="count">(<?php echo esc_html( WC()->cart->cart_contents_count );?>)</span>
-                                    <i class="ql-bag"></i><i class="ql-chevron-down"></i>
-                                </button>
-
-                            
-                            <?php } ?>
-
-
-                                <?php 
-                                if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) { 
-                                ?>
                                     <div id="ql_woo_cart">
                                         <?php global $woocommerce; ?>
                                         
                                         <?php the_widget('WC_Widget_Cart');  ?>
                                     </div><!-- /ql_woo_cart --> 
-                                <?php 
-                                }
-                                ?>
-                            </div>
-                            <div class="login_btn_wrap">
-                                <?php if ( is_user_logged_in() ) { ?>
-                                    <a class="ql_login-btn" href="<?php echo esc_url( get_permalink( get_option( 'woocommerce_myaccount_page_id' ) ) ); ?>" title="<?php esc_attr_e( 'My Account', 'shophistic-lite' ); ?>"><?php esc_html_e( 'My Account', 'shophistic-lite' ); ?></a>
-                                 <?php } 
-                                 else { ?>
-                                    <a class="ql_login-btn" href="<?php echo esc_url( get_permalink( get_option('woocommerce_myaccount_page_id') ) ); ?>" title="<?php esc_attr_e( 'Login', 'shophistic-lite' ); ?>"><?php esc_html_e( 'Login', 'shophistic-lite' ); ?></a>
-                                 <?php } ?>
-                            </div>
-                            <div class="clearfix"></div>
-                        </div><!-- col-md-4 -->
+                                </div>
+                                <div class="login_btn_wrap">
+                                    <?php if ( is_user_logged_in() ) { ?>
+                                        <a class="ql_login-btn" href="<?php echo esc_url( get_permalink( get_option( 'woocommerce_myaccount_page_id' ) ) ); ?>" title="<?php esc_attr_e( 'My Account', 'shophistic-lite' ); ?>"><?php esc_html_e( 'My Account', 'shophistic-lite' ); ?></a>
+                                     <?php } 
+                                     else { ?>
+                                        <a class="ql_login-btn" href="<?php echo esc_url( get_permalink( get_option('woocommerce_myaccount_page_id') ) ); ?>" title="<?php esc_attr_e( 'Login', 'shophistic-lite' ); ?>"><?php esc_html_e( 'Login', 'shophistic-lite' ); ?></a>
+                                     <?php } ?>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div><!-- col-md-4 -->
+                        <?php } //if WooCommerce active ?>
 
                     </div><!-- row-->
                 </div><!-- /container -->

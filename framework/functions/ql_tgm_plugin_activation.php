@@ -26,14 +26,6 @@ function shophistic_lite_register_required_plugins() {
     $plugins = array(
         // This is an example of how to include a plugin pre-packaged with a theme
         array(
-            'name'               => 'Meta Box',
-            'slug'               => 'meta-box',
-            'version'           => '4.5.0',
-            'required'           => false,
-            'force_activation'   => false,
-            'force_deactivation' => false,
-        ),
-        array(
             'name'               => 'WooCommerce',
             'slug'               => 'woocommerce',
             'version'           => '2.4.0',

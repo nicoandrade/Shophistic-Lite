@@ -29,9 +29,6 @@ class shophistic_lite_Theme {
 		/* Add Theme Functions */
 		$this->theme_functions();
 		
-		/* Create all the custom Meta Boxes */
-		$this->meta_boxes();
-		
 		/* Create all the widget areas */
 		$this->widget_areas();
 
@@ -119,11 +116,7 @@ class shophistic_lite_Theme {
 	 * Add Stylesheets for the Theme (CSS)
 	 */
 	public function stylesheets(){
-
-		//Stylesheets
 		shophistic_lite_require_file("/stylesheets.php", SHOPHISTIC_SCRIPTS, CHILD_SHOPHISTIC_SCRIPTS);
-
-		
 	}
 
 
@@ -132,10 +125,7 @@ class shophistic_lite_Theme {
 	 * Add JS Scripts for the Theme (JS)
 	 */
 	public function scripts(){
-
-		//Stylesheets
 		shophistic_lite_require_file("/scripts.php", SHOPHISTIC_SCRIPTS, CHILD_SHOPHISTIC_SCRIPTS);
-		
 	}
 
 	
@@ -225,19 +215,6 @@ class shophistic_lite_Theme {
 	
 	
 	
-	
-	/**
-	 * Create all the custom Meta Boxes
-	 */
-	public function meta_boxes(){
-		// Include the meta box definition (the file where you define meta boxes, see `demo/demo.php`)
-		shophistic_lite_require_file("/config-meta-boxes.php", SHOPHISTIC_META_BOXES, CHILD_SHOPHISTIC_META_BOXES);
-
-	}
-
-	
-	
-	
 	/**
 	 * Create all the widget areas
 	 */
@@ -256,9 +233,6 @@ class shophistic_lite_Theme {
 		shophistic_lite_require_file('/theme_customizer.php', SHOPHISTIC_FUNCTIONS, CHILD_SHOPHISTIC_FUNCTIONS);
 	}
 	
-	
-	
-
 	
 	
 	

@@ -36,11 +36,11 @@ endif;
 
 
 /**
- * Check if the Shop Sidebar is active and retrive the correct content class
+ * Check if the Sidebar is active and retrive the correct content class
  */
-if ( ! function_exists( 'shophistic_lite_content_check_shop_sidebar' ) ){
-	function shophistic_lite_content_check_shop_sidebar() {
-		if ( is_active_sidebar( 'shop-sidebar' ) ) { 
+if ( ! function_exists( 'shophistic_lite_content_check_sidebar' ) ){
+	function shophistic_lite_content_check_sidebar() {
+		if ( is_active_sidebar( 'sidebar-widgets' ) ) { 
             return "col-md-10";
         }else{
             return "col-md-12";

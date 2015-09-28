@@ -23,11 +23,10 @@ TABLE OF CONTENTS
 6. Woocommerce
 7. Owl Carousel
 8. Pace
-9. Shortcodes
-10. WordPress Default
-11. External Plugins
-12. Global Styles
-13. Responsive Styles
+9. WordPress Default
+10. External Plugins
+11. Global Styles
+12. Responsive Styles
 LESS Variables and Mixins
 ----------------------------------------------------------------
 */
@@ -4551,63 +4550,7 @@ ol.commentlist .comment-entry span.arrow_comment {
 }
 /*
 ==========================================
-9. Shortcodes
-========================================== 
-*/
-.ql_pricing .ql_item_price {
-  border: 2px dashed #777777;
-  padding: 30px;
-  text-align: center;
-  margin: 20px 0;
-}
-.ql_pricing .ql_pricing_title {
-  text-align: center;
-  margin-top: 0;
-  text-transform: uppercase;
-  padding-bottom: 20px;
-  border-bottom: 1px dashed #eeeeee;
-  margin-bottom: 20px;
-}
-.ql_pricing .ql_item_price ul {
-  list-style: none;
-  padding: 0;
-  text-align: center;
-  padding-bottom: 20px;
-  border-bottom: 1px dashed #eeeeee;
-}
-.ql_pricing .ql_item_price ul li {
-  margin-bottom: 8px;
-  display: block;
-  color: #777777;
-}
-.ql_pricing .ql_pricing_price {
-  font-size: 36px;
-  font-size: 2.25rem;
-  display: block;
-  text-align: center;
-  font-weight: lighter;
-  margin: 15px 0;
-  color: #c3a769;
-  margin-bottom: 20px;
-}
-.ql_pricing .ql_pricing_btn {
-  margin: 0 auto;
-  text-align: center;
-  border: 2px solid #c3a769;
-  padding: 8px 25px;
-  display: inline-block;
-  font-size: 14px;
-  font-size: 0.875rem;
-  text-transform: uppercase;
-}
-.ql_pricing .ql_pricing_btn:hover {
-  color: #ffffff;
-  background-color: #c3a769;
-  text-decoration: none;
-}
-/*
-==========================================
-10. WordPress Default
+9. WordPress Default
 ========================================== 
 */
 /* =WordPress Core
@@ -5085,7 +5028,7 @@ a img.aligncenter {
 }
 /*
 ==========================================
-11. External Plugins
+10. External Plugins
 ========================================== 
 */
 /*
@@ -5263,7 +5206,7 @@ a img.aligncenter {
 }
 /*
 ==========================================
-12. Global Styles
+11. Global Styles
 ========================================== 
 */
 html {
@@ -5608,7 +5551,7 @@ input[type="submit"] {
 }
 /*
 ==========================================
-13. Responsive Styles
+12. Responsive Styles
 ========================================== 
 */
 /*

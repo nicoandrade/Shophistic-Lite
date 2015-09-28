@@ -18,5 +18,5 @@
 
         ?>
 		
-		<div id="content" class="<?php echo esc_attr( shophistic_lite_content_check_shop_sidebar() ); ?>">
+		<div id="content" class="<?php echo esc_attr( shophistic_lite_content_check_sidebar() ); ?>">
 

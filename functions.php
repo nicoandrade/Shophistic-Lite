@@ -15,7 +15,7 @@ endif;// if function_exists
 
 
 /* Set the Full Width Image value */
-if ( ! isset( $content_width ) ) $content_width = 1138;
+if ( ! isset( $content_width ) ) $content_width = 1186;
 
 
 /* Load the Theme class. */

@@ -5,7 +5,6 @@
 	//=============================================================
 if ( ! function_exists( 'shophistic_lite_enqueue_stylesheets' ) ){
 	function shophistic_lite_enqueue_stylesheets() {
-
 		
 		//Bootstrap =======================================================
 		wp_register_style('bootstrap', SHOPHISTIC_CSS . '/bootstrap.css', array(), '3.1', 'all');  
@@ -41,20 +40,4 @@ if ( ! function_exists( 'shophistic_lite_enqueue_stylesheets' ) ){
 }
 	add_action('wp_enqueue_scripts', 'shophistic_lite_enqueue_stylesheets');
 
-
-
-
-if ( ! function_exists( 'shophistic_lite_enqueue_admin_stylesheets' ) ){
-	function shophistic_lite_enqueue_admin_stylesheets() {
-		//Admin Stylesheet =================================================
-			wp_register_style('admin-stylesheet', SHOPHISTIC_CSS . '/admin_styles.css', array(), '1.0', 'all');  
-			wp_enqueue_style('admin-stylesheet');  
-		//=================================================================
-	}
-}
-
-
-
-
-	add_action( 'admin_print_styles', 'shophistic_lite_enqueue_admin_stylesheets' );
 ?>

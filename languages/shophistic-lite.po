@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Shophistic\n"
-"POT-Creation-Date: 2015-08-27 16:20-0300\n"
-"PO-Revision-Date: 2015-08-27 16:20-0300\n"
+"Project-Id-Version: Shophistic Lite\n"
+"POT-Creation-Date: 2015-09-28 18:30-0300\n"
+"PO-Revision-Date: 2015-09-28 18:31-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en_US\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.2\n"
+"X-Generator: Poedit 1.8.4\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: style.css\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -62,162 +62,63 @@ msgstr ""
 msgid "Website"
 msgstr ""
 
-#: framework/Theme.php:182
+#: footer.php:8
+msgid "Powered by "
+msgstr ""
+
+#: footer.php:8
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: footer.php:8
+msgid "WordPress"
+msgstr ""
+
+#: footer.php:8
+msgid "Shophistic Lite designed by "
+msgstr ""
+
+#. Author URI of the plugin/theme
+#: footer.php:8
+msgid "https://www.quemalabs.com/"
+msgstr ""
+
+#. Author of the plugin/theme
+#: footer.php:8
+msgid "Quema Labs"
+msgstr ""
+
+#: framework/Theme.php:167
 msgid "Navigation Menu"
 msgstr ""
 
-#: framework/Theme.php:183
+#: framework/Theme.php:168
 msgid "Social"
 msgstr ""
 
-#: framework/admin/inc/includes/class-options-framework-admin.php:91
-#: framework/admin/inc/includes/class-options-framework-admin.php:92
-msgid "Theme Options"
-msgstr ""
-
-#: framework/admin/inc/includes/class-options-framework-admin.php:203
-msgid "Save Options"
-msgstr ""
-
-#: framework/admin/inc/includes/class-options-framework-admin.php:204
-msgid "Restore Defaults"
-msgstr ""
-
-#: framework/admin/inc/includes/class-options-framework-admin.php:204
-msgid "Click OK to reset. Any theme settings will be lost!"
-msgstr ""
-
-#: framework/admin/inc/includes/class-options-framework-admin.php:235
-msgid "Default options restored."
-msgstr ""
-
-#: framework/admin/inc/includes/class-options-framework-admin.php:289
-msgid "Options saved."
-msgstr ""
-
-#: framework/admin/inc/includes/class-options-media-uploader.php:62
-msgid "No file chosen"
-msgstr ""
-
-#: framework/admin/inc/includes/class-options-media-uploader.php:65
-#: framework/admin/inc/includes/class-options-media-uploader.php:118
-msgid "Upload"
-msgstr ""
-
-#: framework/admin/inc/includes/class-options-media-uploader.php:67
-#: framework/admin/inc/includes/class-options-media-uploader.php:119
-msgid "Remove"
-msgstr ""
-
-#: framework/admin/inc/includes/class-options-media-uploader.php:70
-msgid "Upgrade your version of WordPress for full media support."
-msgstr ""
-
-#: framework/admin/inc/includes/class-options-media-uploader.php:94
-msgid "View File"
-msgstr ""
-
-#: framework/admin/inc/includes/class-options-sanitization.php:316
-msgid "No Repeat"
-msgstr ""
-
-#: framework/admin/inc/includes/class-options-sanitization.php:317
-msgid "Repeat Horizontally"
-msgstr ""
-
-#: framework/admin/inc/includes/class-options-sanitization.php:318
-msgid "Repeat Vertically"
-msgstr ""
-
-#: framework/admin/inc/includes/class-options-sanitization.php:319
-msgid "Repeat All"
-msgstr ""
-
-#: framework/admin/inc/includes/class-options-sanitization.php:331
-msgid "Top Left"
-msgstr ""
-
-#: framework/admin/inc/includes/class-options-sanitization.php:332
-msgid "Top Center"
-msgstr ""
-
-#: framework/admin/inc/includes/class-options-sanitization.php:333
-msgid "Top Right"
-msgstr ""
-
-#: framework/admin/inc/includes/class-options-sanitization.php:334
-msgid "Middle Left"
-msgstr ""
-
-#: framework/admin/inc/includes/class-options-sanitization.php:335
-msgid "Middle Center"
-msgstr ""
-
-#: framework/admin/inc/includes/class-options-sanitization.php:336
-msgid "Middle Right"
-msgstr ""
-
-#: framework/admin/inc/includes/class-options-sanitization.php:337
-msgid "Bottom Left"
-msgstr ""
-
-#: framework/admin/inc/includes/class-options-sanitization.php:338
-msgid "Bottom Center"
-msgstr ""
-
-#: framework/admin/inc/includes/class-options-sanitization.php:339
-msgid "Bottom Right"
-msgstr ""
-
-#: framework/admin/inc/includes/class-options-sanitization.php:351
-msgid "Scroll Normally"
-msgstr ""
-
-#: framework/admin/inc/includes/class-options-sanitization.php:352
-msgid "Fixed in Place"
-msgstr ""
-
-#: framework/admin/inc/includes/class-options-sanitization.php:424
-#: options.php:406 options.php:438
-msgid "Normal"
-msgstr ""
-
-#: framework/admin/inc/includes/class-options-sanitization.php:425
-msgid "Italic"
-msgstr ""
-
-#: framework/admin/inc/includes/class-options-sanitization.php:426
-#: options.php:406 options.php:438
-msgid "Bold"
-msgstr ""
-
-#: framework/admin/inc/includes/class-options-sanitization.php:427
-msgid "Bold Italic"
-msgstr ""
-
 #: framework/functions/class-tgm-plugin-activation.php:333
-#: framework/functions/ql_tgm_plugin_activation.php:101
+#: framework/functions/ql_tgm_plugin_activation.php:55
 msgid "Install Required Plugins"
 msgstr ""
 
 #: framework/functions/class-tgm-plugin-activation.php:334
-#: framework/functions/ql_tgm_plugin_activation.php:102
+#: framework/functions/ql_tgm_plugin_activation.php:56
 msgid "Install Plugins"
 msgstr ""
 
 #: framework/functions/class-tgm-plugin-activation.php:335
-#: framework/functions/ql_tgm_plugin_activation.php:103
+#: framework/functions/ql_tgm_plugin_activation.php:57
 #, php-format
 msgid "Installing Plugin: %s"
 msgstr ""
 
 #: framework/functions/class-tgm-plugin-activation.php:336
-#: framework/functions/ql_tgm_plugin_activation.php:104
+#: framework/functions/ql_tgm_plugin_activation.php:58
 msgid "Something went wrong with the plugin API."
 msgstr ""
 
 #: framework/functions/class-tgm-plugin-activation.php:338
-#: framework/functions/ql_tgm_plugin_activation.php:105
+#: framework/functions/ql_tgm_plugin_activation.php:59
 #, php-format
 msgid "This theme requires the following plugin: %1$s."
 msgid_plural "This theme requires the following plugins: %1$s."
@@ -225,7 +126,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: framework/functions/class-tgm-plugin-activation.php:343
-#: framework/functions/ql_tgm_plugin_activation.php:106
+#: framework/functions/ql_tgm_plugin_activation.php:60
 #, php-format
 msgid "This theme recommends the following plugin: %1$s."
 msgid_plural "This theme recommends the following plugins: %1$s."
@@ -244,7 +145,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: framework/functions/class-tgm-plugin-activation.php:353
-#: framework/functions/ql_tgm_plugin_activation.php:111
+#: framework/functions/ql_tgm_plugin_activation.php:65
 #, php-format
 msgid ""
 "The following plugin needs to be updated to its latest version to ensure "
@@ -273,7 +174,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: framework/functions/class-tgm-plugin-activation.php:368
-#: framework/functions/ql_tgm_plugin_activation.php:108
+#: framework/functions/ql_tgm_plugin_activation.php:62
 #, php-format
 msgid "The following required plugin is currently inactive: %1$s."
 msgid_plural "The following required plugins are currently inactive: %1$s."
@@ -281,7 +182,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: framework/functions/class-tgm-plugin-activation.php:373
-#: framework/functions/ql_tgm_plugin_activation.php:109
+#: framework/functions/ql_tgm_plugin_activation.php:63
 #, php-format
 msgid "The following recommended plugin is currently inactive: %1$s."
 msgid_plural "The following recommended plugins are currently inactive: %1$s."
@@ -300,7 +201,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: framework/functions/class-tgm-plugin-activation.php:383
-#: framework/functions/ql_tgm_plugin_activation.php:113
+#: framework/functions/ql_tgm_plugin_activation.php:67
 msgid "Begin installing plugin"
 msgid_plural "Begin installing plugins"
 msgstr[0] ""
@@ -313,14 +214,14 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: framework/functions/class-tgm-plugin-activation.php:393
-#: framework/functions/ql_tgm_plugin_activation.php:114
+#: framework/functions/ql_tgm_plugin_activation.php:68
 msgid "Begin activating plugin"
 msgid_plural "Begin activating plugins"
 msgstr[0] ""
 msgstr[1] ""
 
 #: framework/functions/class-tgm-plugin-activation.php:397
-#: framework/functions/ql_tgm_plugin_activation.php:115
+#: framework/functions/ql_tgm_plugin_activation.php:69
 msgid "Return to Required Plugins Installer"
 msgstr ""
 
@@ -330,7 +231,7 @@ msgstr ""
 
 #: framework/functions/class-tgm-plugin-activation.php:399
 #: framework/functions/class-tgm-plugin-activation.php:3029
-#: framework/functions/ql_tgm_plugin_activation.php:116
+#: framework/functions/ql_tgm_plugin_activation.php:70
 msgid "Plugin activated successfully."
 msgstr ""
 
@@ -677,11 +578,11 @@ msgstr ""
 msgid "(Edit)"
 msgstr ""
 
-#: framework/functions/custom_functions.php:5
+#: framework/functions/custom_functions.php:21
 msgid "Read more"
 msgstr ""
 
-#: framework/functions/ql_tgm_plugin_activation.php:107
+#: framework/functions/ql_tgm_plugin_activation.php:61
 #, php-format
 msgid ""
 "Sorry, but you do not have the correct permissions to install the %s plugin. "
@@ -694,7 +595,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: framework/functions/ql_tgm_plugin_activation.php:110
+#: framework/functions/ql_tgm_plugin_activation.php:64
 #, php-format
 msgid ""
 "Sorry, but you do not have the correct permissions to activate the %s "
@@ -707,7 +608,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: framework/functions/ql_tgm_plugin_activation.php:112
+#: framework/functions/ql_tgm_plugin_activation.php:66
 #, php-format
 msgid ""
 "Sorry, but you do not have the correct permissions to update the %s plugin. "
@@ -720,240 +621,88 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: framework/functions/ql_tgm_plugin_activation.php:117
+#: framework/functions/ql_tgm_plugin_activation.php:71
 #, php-format
 msgid "All plugins installed and activated successfully. %s"
 msgstr ""
 
-#: framework/functions/theme_customizer.php:36
-msgid "Layout"
+#: framework/functions/theme_customizer.php:41
+msgid "Logo"
 msgstr ""
 
-#: framework/functions/theme_customizer.php:55
-#: framework/functions/theme_customizer.php:107
+#: framework/functions/theme_customizer.php:42
+#, php-format
+msgid ""
+"Check out the <a href=\"%s\" target=\"_blank\">PRO version</a> to change "
+"logo."
+msgstr ""
+
+#: framework/functions/theme_customizer.php:51
+msgid "Home Page"
+msgstr ""
+
+#: framework/functions/theme_customizer.php:52
+#, php-format
+msgid ""
+"Check out the <a href=\"%s\" target=\"_blank\">PRO version</a> to create an "
+"awesome home page."
+msgstr ""
+
+#: framework/functions/theme_customizer.php:61
+msgid "Sidebar Side"
+msgstr ""
+
+#: framework/functions/theme_customizer.php:62
+#, php-format
+msgid ""
+"Check out the <a href=\"%s\" target=\"_blank\">PRO version</a> to choose the "
+"side of the sidebar."
+msgstr ""
+
+#: framework/functions/theme_customizer.php:71
+msgid "Mega Menus"
+msgstr ""
+
+#: framework/functions/theme_customizer.php:72
+#, php-format
+msgid ""
+"Check out the <a href=\"%s\" target=\"_blank\">PRO version</a> to create "
+"mega menus."
+msgstr ""
+
+#: framework/functions/theme_customizer.php:81
+msgid "Footer Widgets"
+msgstr ""
+
+#: framework/functions/theme_customizer.php:82
+#, php-format
+msgid ""
+"Check out the <a href=\"%s\" target=\"_blank\">PRO version</a> to add "
+"widgets in the footer of your site."
+msgstr ""
+
+#: framework/functions/theme_customizer.php:108
+msgid "View PRO version"
+msgstr ""
+
+#: framework/functions/theme_customizer.php:109
+msgid "Documentation"
+msgstr ""
+
+#: framework/functions/theme_customizer.php:121
 msgid "Right"
 msgstr ""
 
-#: framework/functions/theme_customizer.php:56
-#: framework/functions/theme_customizer.php:108
+#: framework/functions/theme_customizer.php:122
 msgid "Left"
 msgstr ""
 
-#: framework/functions/theme_customizer.php:74
-msgid "Header Color"
+#: header.php:92
+msgid "My Account"
 msgstr ""
 
-#: framework/meta_boxes/config-meta-boxes.php:47
-msgid "Link"
-msgstr ""
-
-#: framework/meta_boxes/config-meta-boxes.php:56
-msgid "Display Title and Description"
-msgstr ""
-
-#: framework/meta_boxes/config-meta-boxes.php:61
-msgid "No"
-msgstr ""
-
-#: framework/meta_boxes/config-meta-boxes.php:62
-msgid "Yes"
-msgstr ""
-
-#: framework/meta_boxes/config-meta-boxes.php:70
-msgid "Video"
-msgstr ""
-
-#: framework/plugins/easy_installer/admin/backend.php:71
-msgid "One Click Installer"
-msgstr ""
-
-#: framework/plugins/easy_installer/admin/backend.php:74
-msgid ""
-"Welcome to One Click Installer, with this you can setup site in matter of "
-"minutes. <br>Some Points to note, make sure this is a <strong>fresh "
-"installation</strong> and while installer is running <strong>please do not "
-"refresh the page</strong>. <br>A notification will show after demo has been "
-"installed. <br>Importing the demo site is for test purpose, for your site is "
-"better start from scratch. All images will be replace for dummy image, this "
-"speed up the import process and avoid copyright issues."
-msgstr ""
-
-#: framework/plugins/easy_installer/admin/backend.php:93
-msgid "Install Content"
-msgstr ""
-
-#: framework/plugins/easy_installer/admin/importer/parsers.php:43
-#: framework/plugins/easy_installer/admin/importer/parsers.php:75
-#: framework/plugins/easy_installer/admin/importer/parsers.php:83
-msgid "There was an error when reading this WXR file"
-msgstr ""
-
-#: framework/plugins/easy_installer/admin/importer/parsers.php:44
-msgid ""
-"Details are shown above. The importer will now try again with a different "
-"parser..."
-msgstr ""
-
-#: framework/plugins/easy_installer/admin/importer/parsers.php:87
-#: framework/plugins/easy_installer/admin/importer/parsers.php:92
-#: framework/plugins/easy_installer/admin/importer/parsers.php:283
-#: framework/plugins/easy_installer/admin/importer/parsers.php:469
-msgid ""
-"This does not appear to be a WXR file, missing/invalid WXR version number"
-msgstr ""
-
-#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:112
-#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:121
-#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:171
-#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:175
-#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:184
-msgid "Sorry, there has been an error."
-msgstr ""
-
-#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:113
-msgid "The file does not exist, please try again."
-msgstr ""
-
-#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:176
-#, php-format
-msgid ""
-"The export file could not be found at <code>%s</code>. It is likely that "
-"this was caused by a permissions problem."
-msgstr ""
-
-#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:192
-#, php-format
-msgid ""
-"This WXR file (version %s) may not be supported by this version of the "
-"importer. Please consider updating."
-msgstr ""
-
-#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:242
-msgid "Assign Authors"
-msgstr ""
-
-#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:243
-msgid ""
-"To make it easier for you to edit and save the imported content, you may "
-"want to reassign the author of the imported item to an existing user of this "
-"site. For example, you may want to import all the entries as <code>admin</"
-"code>s entries."
-msgstr ""
-
-#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:245
-#, php-format
-msgid ""
-"If a new user is created by WordPress, a new password will be randomly "
-"generated and the new user&#8217;s role will be set as %s. Manually changing "
-"the new user&#8217;s details will be necessary."
-msgstr ""
-
-#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:255
-msgid "Import Attachments"
-msgstr ""
-
-#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:258
-msgid "Download and import file attachments"
-msgstr ""
-
-#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:262
-msgid "Submit"
-msgstr ""
-
-#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:275
-msgid "Import author:"
-msgstr ""
-
-#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:286
-msgid "or create new user with login name:"
-msgstr ""
-
-#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:289
-msgid "as a new user:"
-msgstr ""
-
-#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:297
-msgid "assign posts to an existing user:"
-msgstr ""
-
-#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:299
-msgid "or assign posts to an existing user:"
-msgstr ""
-
-#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:300
-msgid "- Select -"
-msgstr ""
-
-#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:521
-#, php-format
-msgid "%s &#8220;%s&#8221; already exists."
-msgstr ""
-
-#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:738
-msgid "Menu item skipped due to missing menu slug"
-msgstr ""
-
-#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:745
-#, php-format
-msgid "Menu item skipped due to invalid menu slug: %s"
-msgstr ""
-
-#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:808
-msgid "Fetching attachments is not enabled"
-msgstr ""
-
-#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:821
-msgid "Invalid file type"
-msgstr ""
-
-#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:865
-msgid "Remote server did not respond"
-msgstr ""
-
-#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:871
-#, php-format
-msgid "Remote server returned error response %1$d %2$s"
-msgstr ""
-
-#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:878
-msgid "Remote file is incorrect size"
-msgstr ""
-
-#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:883
-msgid "Zero size file downloaded"
-msgstr ""
-
-#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:889
-#, php-format
-msgid "Remote file is too large, limit is %s"
-msgstr ""
-
-#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:988
-msgid "Import WordPress"
-msgstr ""
-
-#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:995
-#, php-format
-msgid ""
-"A new version of this importer is available. Please update to version %s to "
-"ensure compatibility with newer export files."
-msgstr ""
-
-#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:1010
-msgid ""
-"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
-"the posts, pages, comments, custom fields, categories, and tags into this "
-"site."
-msgstr ""
-
-#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:1011
-msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
-msgstr ""
-
-#: framework/plugins/easy_installer/admin/importer/wordpress-importer.php:1085
-msgid ""
-"Import <strong>posts, pages, comments, custom fields, categories, and tags</"
-"strong> from a WordPress export file."
+#: header.php:95
+msgid "Login"
 msgstr ""
 
 #: meta.php:10
@@ -1212,6 +961,14 @@ msgstr ""
 msgid "Select the font weight for your text."
 msgstr ""
 
+#: options.php:406 options.php:438
+msgid "Normal"
+msgstr ""
+
+#: options.php:406 options.php:438
+msgid "Bold"
+msgstr ""
+
 #: options.php:410
 msgid "Links Typography"
 msgstr ""
@@ -1277,31 +1034,23 @@ msgstr ""
 msgid "Page"
 msgstr ""
 
-#: templates/header.php:78
-msgid "My Account"
-msgstr ""
-
-#: templates/header.php:81
-msgid "Login"
-msgstr ""
-
 #: woocommerce/single-product/product-image.php:63
 msgid "Placeholder"
 msgstr ""
 
 #. Theme Name of the plugin/theme
-msgid "Shophistic"
+msgid "Shophistic Lite"
 msgstr ""
 
 #. Theme URI of the plugin/theme
-#. Author URI of the plugin/theme
-msgid "http://www.quemalabs.com"
+msgid "https://www.quemalabs.com/theme/shophistic-lite/"
 msgstr ""
 
 #. Description of the plugin/theme
-msgid "A Premium WooCommerce Theme."
-msgstr ""
-
-#. Author of the plugin/theme
-msgid "Quema Labs"
+msgid ""
+"Shophistic Lite is the perfect theme for your shop online. With a beautiful "
+"and unique design, is responsive and fully compatible with WooCommerce. The "
+"easiest way to create your store online. If you need more features you "
+"should check the PRO version, Shophistic: https://www.quemalabs.com/theme/"
+"shophistic/"
 msgstr ""

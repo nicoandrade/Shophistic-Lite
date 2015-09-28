@@ -1,23 +1,37 @@
 /*
-Theme Name: Shophistic
-Theme URI: http://www.quemalabs.com
-Description: A Premium WooCommerce Theme.
-Version: 1.0.0
+Theme Name: Shophistic Lite
+Theme URI: https://www.quemalabs.com/theme/shophistic-lite/
+Description: Shophistic Lite is the perfect theme for your shop online. With a beautiful and unique design, is responsive and fully compatible with WooCommerce. The easiest way to create your store online. If you need more features you should check the PRO version, Shophistic: https://www.quemalabs.com/theme/shophistic/
+Version: 1.0.1
 Author: Quema Labs
-Author URI: http://www.quemalabs.com
-License: GNU General Public License
-License URI: License.txt
-Tags: two-columns, custom-background, threaded-comments, custom-menu, responsive-layout, white, light, featured-images, sticky-post, translation-ready
+Author URI: https://www.quemalabs.com/
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
+Tags: featured-images, responsive-layout, two-columns, threaded-comments, custom-menu, light, left-sidebar, sticky-post, translation-ready, white, gray, custom-background, full-width-template, rtl-language-support, photoblogging, theme-options
+Text Domain: shophistic-lite
+*/
+/*
+----------------------------------------------------------------
+TABLE OF CONTENTS
+----------------------------------------------------------------
+1. Header
+2. Blog & Pages
+3. Sidebar
+4. Footer
+5. Comments
+6. Woocommerce
+7. Owl Carousel
+8. Pace
+9. WordPress Default
+10. External Plugins
+11. Global Styles
+12. Responsive Styles
+LESS Variables and Mixins
+----------------------------------------------------------------
 */
 /*
 ==========================================
-Theme Styles
-========================================== 
-*/
-
-/*
-==========================================
-Header
+1. Header
 ========================================== 
 */
 
@@ -63,24 +77,8 @@ Nav Menu
 }
 
 /* Multi level dropdown -------*/
-
-.dropdown-submenu > .dropdown-menu {
-	right: 0;
-	margin-right: -1px;
-	left: auto;
-	margin-left: auto;
-}
-
-.dropdown-submenu > a:after {
-	float: left;
-	margin-left: -10px;
-	margin-right: auto;
-}
-
-.dropdown-submenu.pull-right > .dropdown-menu {
-	right: -100%;
-	margin-right: 10px;
-	left: auto;
+.dropdown-menu .dropdown-menu {
+	margin-right: 15px;
 	margin-left: auto;
 }
 
@@ -221,7 +219,307 @@ Search
 
 /*
 ==========================================
-WooCommerce
+2. Blog & Pages
+========================================== 
+*/
+
+#content {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#content.col-md-pull-2 {
+	padding-left: 20px;
+	padding-right: 0;
+}
+
+#content.col-md-12 {
+	padding-left: 20px;
+	padding-right: 0;
+}
+
+/*Breadcrumbs								*/
+/*------------------------------------------*/
+#breadcrumbs {
+	left: 0;
+	text-align: right;
+	right: auto;
+}
+
+/*Page Title 								*/
+/*------------------------------------------*/
+
+/*Post Title 								*/
+/*------------------------------------------*/
+
+.post_title a {
+	text-align: right;
+}
+
+/*Post										*/
+/*------------------------------------------*/
+
+/*Image Post								*/
+/*------------------------------------------*/
+
+/*Metadata 									*/
+/*------------------------------------------*/
+.metadata {
+	border-left: none;
+	border-right: none;
+}
+
+.metadata ul li {
+	margin: 0 0 18px 20px;
+	float: right;
+}
+
+.metadata ul li i {
+	margin-left: 0.35714285714286em;
+	margin-right: auto;
+}
+
+.metadata ul li.meta_tags a {
+	margin-left: 10px;
+	margin-right: auto;
+}
+
+/*Pagination															*/
+/*----------------------------------------------------------------------*/
+
+.pagination a,
+.pagination span {
+	float: right;
+	margin-right: -2px;
+	margin-left: auto;
+}
+
+/*
+==========================================
+3. Sidebar
+========================================== 
+*/
+#sidebar {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+#sidebar.col-md-push-10 {
+	padding-left: 0;
+	padding-right: 20px;
+}
+
+/*
+Widgets
+--------------------------------
+*/
+
+#sidebar.col-md-pull-9 .widget {
+	margin-left: 10px;
+	margin-right: 0;
+}
+
+#sidebar .widget ul,
+#sidebar .widget ol {
+	margin-right: 0px;
+	padding-right: 0;
+	padding-left: 0;
+	margin-left: auto;
+}
+
+#sidebar .widget ul li ul {
+	margin-right: 15px;
+	margin-left: auto;
+}
+
+#sidebar .hasChildren i {
+	left: 5px;
+	right: auto;
+}
+
+#sidebar select {
+	margin-right: 5px;
+	margin-left: auto;
+}
+
+/*
+Recent Comments Widget
+--------------------------------
+*/
+
+#sidebar .widget_recent_comments ul li {
+	padding-right: 35px;
+	padding-left: 0;
+}
+
+#sidebar .widget_recent_comments ul li::before {
+	right: 0;
+	left: auto;
+}
+
+#sidebar .widget_recent_comments ul li i {
+	right: 0;
+	left: auto;
+}
+
+/*
+Recent Posts Widget
+--------------------------------
+*/
+
+/*
+Tag Widget
+--------------------------------
+*/
+
+#sidebar .widget_tag ul li {
+	margin: 0 0 0.90909090909091em 0.90909090909091em;
+	float: right;
+}
+
+/*
+Search Widget
+--------------------------------
+*/
+
+.widget_search #s {
+	padding-left: 30px;
+	padding-right: 0;
+}
+
+.widget_search #searchsubmit {
+	left: 15px;
+	right: auto;
+}
+
+.widget_search i {
+	left: 12px;
+	right: auto;
+}
+
+/*
+==========================================
+4. Footer
+========================================== 
+*/
+/*
+Footer
+------------------------
+*/
+
+#footer ul,
+footer ol {
+	margin-right: 0;
+	margin-left: auto;
+}
+
+/*
+==========================================
+Subfooter
+========================================== 
+*/
+
+.sub_footer p {
+	float: right;
+}
+
+/*
+==========================================
+Social Nav
+========================================== 
+*/
+.nav_social {
+	float: left;
+}
+
+.nav_social li {
+	float: right;
+	margin-right: 10px;
+	margin-left: auto;
+}
+
+/*
+==========================================
+Payments Options
+========================================== 
+*/
+.ql_payments_options ul {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.ql_payments_options ul li {
+	margin-right: 0.71428571428571em;
+	margin-left: auto;
+}
+
+/*
+==========================================
+5. Comments
+========================================== 
+*/
+/*===========================================================================*/
+/*Comments																	 */
+/*===========================================================================*/
+
+.commentlist {
+	margin-right: 0;
+	margin-left: auto;
+}
+
+.ie8 ol.commentlist li .comment-entry,
+.ie7 ol.commentlist li .comment-entry {
+	float: left;
+}
+
+ol.commentlist .comment-entry span.arrow_comment {
+	right: -22px;
+	left: auto;
+}
+
+.comment-meta {
+	float: right;
+	margin-right: 10px;
+	margin-left: auto;
+}
+
+.reply {
+	float: left;
+	clear: left;
+}
+
+#comments ul.children {
+	margin-right: 30px;
+	margin-left: auto;
+}
+
+/*===========================================================================*/
+/*Comments	Form															 */
+/*===========================================================================*/
+
+#respond .input-wrap {
+	margin: 0px 0 10px 15px;
+	float: right;
+}
+
+#respond input {
+	padding-right: 2.30769230769231em;
+	padding-left: 0;
+}
+
+#respond .controls-wrap i {
+	right: 0.71428571428571em;
+	left: auto;
+}
+
+#respond #submit-respond {
+	padding-right: 12px;
+	padding-left: 0;
+}
+
+/*
+==========================================
+6. WooCommerce
 ========================================== 
 */
 /*Shop
@@ -865,416 +1163,13 @@ WooCommerce
 
 /*
 ==========================================
-Owl Carousel
+7. Owl Carousel
 ========================================== 
 */
 
 /*
 ==========================================
-Footer
-========================================== 
-*/
-/*
-Footer
-------------------------
-*/
-
-#footer ul,
-footer ol {
-	margin-right: 0;
-	margin-left: auto;
-}
-
-#footer select {
-	margin-right: 5px;
-	margin-left: auto;
-}
-
-#footer ul,
-footer ol {
-	margin-right: 0;
-	padding-right: 0;
-	padding-left: 0;
-	margin-left: auto;
-}
-
-#footer .widget ul li ul {
-	margin-right: 30px;
-	margin-left: auto;
-}
-
-#footer .hasChildren i {
-	left: 5px;
-	right: auto;
-}
-
-/*-----------Archive Widget-----------------*/
-
-/*-----------Recent & Popular Posts Widget-----------------*/
-
-.widget_recent_posts ul li .recent-post-img,
-.widget_popular_posts ul li .recent-post-img {
-	float: right;
-	margin-left: 10px;
-	margin-right: auto;
-}
-
-.widget_recent_posts ul li .recent-post-img span,
-.widget_popular_posts ul li .recent-post-img span {
-	right: 1px;
-	left: auto;
-}
-
-/*-----------Testimonials Widget-----------------*/
-
-footer .widget_testimonials ul li cite {
-	padding-right: 25px;
-	padding-left: 0;
-}
-
-footer .widget_testimonials .testimonials_nav {
-	float: left;
-}
-
-footer .widget_testimonials .testimonials_nav a {
-	float: right;
-	margin-right: 10px;
-	margin-left: auto;
-}
-
-/*-----------Twitter Widget-----------------*/
-footer .twitter_widget ul li {
-	padding-right: 27px!important;
-	padding-left: 0;
-}
-
-footer .twitter_widget ul li i {
-	right: 0;
-	left: auto;
-}
-
-footer .twitter_widget .twitter li a:hover {
-	margin-right: 0!important;
-	margin-left: auto;
-}
-
-/*-----------Contact Info Widget-----------------*/
-.contact_info .contact_info li {
-	padding-right: 27px!important;
-	padding-left: 0;
-}
-
-.contact_info .contact_info li i {
-	right: 0;
-	left: auto;
-}
-
-/*-----------Social Widget-----------------*/
-footer .social a {
-	margin: 7px 0 7px 7px;
-}
-
-/*Quick Contact													*/
-/*--------------------------------------------------------------*/
-
-footer .quick_contact .form .send {
-	float: left;
-}
-
-footer .name-error,
-footer .email-error,
-footer .comments-error {
-	right: 175px;
-	left: auto;
-}
-
-/*
-==========================================
-Subfooter
-========================================== 
-*/
-
-.sub_footer p {
-	float: right;
-}
-
-/*
-==========================================
-Social Nav
-========================================== 
-*/
-.nav_social {
-	float: left;
-}
-
-.nav_social li {
-	float: right;
-	margin-right: 10px;
-	margin-left: auto;
-}
-
-/*
-==========================================
-Payments Options
-========================================== 
-*/
-.ql_payments_options ul {
-	padding-right: 0;
-	padding-left: 0;
-}
-
-.ql_payments_options ul li {
-	margin-right: 0.71428571428571em;
-	margin-left: auto;
-}
-
-/*
-==========================================
-Blog & Pages
-========================================== 
-*/
-
-#content {
-	padding-left: 0;
-	padding-right: 0;
-}
-
-#content.col-md-pull-2 {
-	padding-left: 20px;
-	padding-right: 0;
-}
-
-#content.col-md-12 {
-	padding-left: 20px;
-	padding-right: 0;
-}
-
-/*Breadcrumbs								*/
-/*------------------------------------------*/
-#breadcrumbs {
-	left: 0;
-	text-align: right;
-	right: auto;
-}
-
-/*Page Title 								*/
-/*------------------------------------------*/
-
-/*Post Title 								*/
-/*------------------------------------------*/
-
-.post_title a {
-	text-align: right;
-}
-
-/*Post										*/
-/*------------------------------------------*/
-
-/*Image Post								*/
-/*------------------------------------------*/
-
-/*Metadata 									*/
-/*------------------------------------------*/
-.metadata {
-	border-left: none;
-	border-right: none;
-}
-
-.metadata ul li {
-	margin: 0 0 18px 20px;
-	float: right;
-}
-
-.metadata ul li i {
-	margin-left: 0.35714285714286em;
-	margin-right: auto;
-}
-
-.metadata ul li.meta_tags a {
-	margin-left: 10px;
-	margin-right: auto;
-}
-
-/*Pagination															*/
-/*----------------------------------------------------------------------*/
-
-.pagination a,
-.pagination span {
-	float: right;
-	margin-right: -2px;
-	margin-left: auto;
-}
-
-/*
-==========================================
-Sidebar
-========================================== 
-*/
-#sidebar {
-	padding-right: 0;
-	padding-left: 0;
-}
-
-#sidebar.col-md-push-10 {
-	padding-left: 0;
-	padding-right: 20px;
-}
-
-/*
-Widgets
---------------------------------
-*/
-
-#sidebar.col-md-pull-9 .widget {
-	margin-left: 10px;
-	margin-right: 0;
-}
-
-#sidebar .widget ul,
-#sidebar .widget ol {
-	margin-right: 0px;
-	padding-right: 0;
-	padding-left: 0;
-	margin-left: auto;
-}
-
-#sidebar .widget ul li ul {
-	margin-right: 15px;
-	margin-left: auto;
-}
-
-#sidebar .hasChildren i {
-	left: 5px;
-	right: auto;
-}
-
-#sidebar select {
-	margin-right: 5px;
-	margin-left: auto;
-}
-
-/*
-Recent Comments Widget
---------------------------------
-*/
-
-#sidebar .widget_recent_comments ul li {
-	padding-right: 35px;
-	padding-left: 0;
-}
-
-#sidebar .widget_recent_comments ul li::before {
-	right: 0;
-	left: auto;
-}
-
-#sidebar .widget_recent_comments ul li i {
-	right: 0;
-	left: auto;
-}
-
-/*
-Recent Posts Widget
---------------------------------
-*/
-
-/*
-Tag Widget
---------------------------------
-*/
-
-#sidebar .widget_tag ul li {
-	margin: 0 0 0.90909090909091em 0.90909090909091em;
-	float: right;
-}
-
-/*
-Search Widget
---------------------------------
-*/
-
-.widget_search #s {
-	padding-left: 30px;
-	padding-right: 0;
-}
-
-.widget_search #searchsubmit {
-	left: 15px;
-	right: auto;
-}
-
-.widget_search i {
-	left: 12px;
-	right: auto;
-}
-
-/*
-==========================================
-Comments
-========================================== 
-*/
-/*===========================================================================*/
-/*Comments																	 */
-/*===========================================================================*/
-
-.commentlist {
-	margin-right: 0;
-	margin-left: auto;
-}
-
-.ie8 ol.commentlist li .comment-entry,
-.ie7 ol.commentlist li .comment-entry {
-	float: left;
-}
-
-ol.commentlist .comment-entry span.arrow_comment {
-	right: -22px;
-	left: auto;
-}
-
-.comment-meta {
-	float: right;
-	margin-right: 10px;
-	margin-left: auto;
-}
-
-.reply {
-	float: left;
-	clear: left;
-}
-
-#comments ul.children {
-	margin-right: 30px;
-	margin-left: auto;
-}
-
-/*===========================================================================*/
-/*Comments	Form															 */
-/*===========================================================================*/
-
-#respond .input-wrap {
-	margin: 0px 0 10px 15px;
-	float: right;
-}
-
-#respond input {
-	padding-right: 2.30769230769231em;
-	padding-left: 0;
-}
-
-#respond .controls-wrap i {
-	right: 0.71428571428571em;
-	left: auto;
-}
-
-#respond #submit-respond {
-	padding-right: 12px;
-	padding-left: 0;
-}
-
-/*
-==========================================
-Pace (Loading animation)
+8. Pace (Loading animation)
 ========================================== 
 */
 
@@ -1296,13 +1191,7 @@ Pace (Loading animation)
 
 /*
 ==========================================
-Shortcodes
-========================================== 
-*/
-
-/*
-==========================================
-WordPress Default
+9. WordPress Default
 ========================================== 
 */
 /* =WordPress Core
@@ -1465,7 +1354,7 @@ a img.aligncenter {
 
 /*
 ==========================================
-13. External Plugins
+10. External Plugins
 ========================================== 
 */
 /*
@@ -1510,7 +1399,7 @@ a img.aligncenter {
 
 /*
 ==========================================
-Global Styles
+11. Global Styles
 ========================================== 
 */
 
@@ -1606,7 +1495,7 @@ Hide the icon
 
 /*
 ==========================================
-Responsive Styles
+12. Responsive Styles
 ========================================== 
 */
 /*
