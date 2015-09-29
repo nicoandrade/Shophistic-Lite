@@ -15,10 +15,6 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
 
 = Documentation =
 
-* Theme Options
-All theme options are in:
-Admin Panel>>Appearance>>Customize>>Theme Options
-
 * Social Menu
 Using the social nav menu is just like using any other nav menu in WordPress. You just need to add custom links pointing to your social media profiles.
 
