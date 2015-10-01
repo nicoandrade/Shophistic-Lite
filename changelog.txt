@@ -1,3 +1,8 @@
+* 1.0.2 - 30/09/2015
+====================
+- Fixed: CSS on WooCommerce products archive
+
+
 * 1.0.1 - 30/09/2015
 ====================
 - Complete Theme Update

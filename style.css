@@ -2,7 +2,7 @@
 Theme Name: Shophistic Lite
 Theme URI: https://www.quemalabs.com/theme/shophistic-lite/
 Description: Shophistic Lite is the perfect theme for your shop online. With a beautiful and unique design, is responsive and fully compatible with WooCommerce. The easiest way to create your store online. If you need more features you should check the PRO version, Shophistic: https://www.quemalabs.com/theme/shophistic/
-Version: 1.0.1
+Version: 1.0.2
 Author: Quema Labs
 Author URI: https://www.quemalabs.com/
 License: GNU General Public License v3 or later
@@ -1980,7 +1980,7 @@ ol.commentlist .comment-entry span.arrow_comment {
   letter-spacing: normal;
   vertical-align: top;
   word-spacing: normal;
-  margin-right: 1.4%!important;
+  margin-right: 1.2%!important;
   margin-bottom: 20px;
   -webkit-transition: transform 200ms;
   -o-transition: transform 200ms;
@@ -2036,7 +2036,7 @@ ol.commentlist .comment-entry span.arrow_comment {
   }
   .woocommerce ul.products li.last,
   .woocommerce-page ul.products li.last {
-    margin-right: 1.4%!important;
+    margin-right: 1.2%!important;
   }
 }
 @media (max-width: 767px) {
@@ -2681,7 +2681,7 @@ ol.commentlist .comment-entry span.arrow_comment {
   letter-spacing: normal;
   vertical-align: top;
   word-spacing: normal;
-  margin-right: 1.4%!important;
+  margin-right: 1.2%!important;
   margin-bottom: 20px;
   -webkit-transition: transform 200ms;
   -o-transition: transform 200ms;
@@ -2695,7 +2695,7 @@ ol.commentlist .comment-entry span.arrow_comment {
 }
 .woocommerce ul.ql_products_big li.last,
 .woocommerce-page ul.ql_products_big li.last {
-  margin-right: 1.4%!important;
+  margin-right: 1.2%!important;
 }
 .woocommerce .ql_products_big .product .product_content {
   position: relative;
@@ -2809,7 +2809,7 @@ ol.commentlist .comment-entry span.arrow_comment {
   }
   .woocommerce ul.products li.last,
   .woocommerce-page ul.products li.last {
-    margin-right: 1.4%!important;
+    margin-right: 1.2%!important;
   }
   .woocommerce #main ul.ql_products_big li.product h3,
   .woocommerce-page ul.ql_products_big li.product h3 {
