@@ -2,7 +2,7 @@
 Theme Name: Shophistic Lite
 Theme URI: https://www.quemalabs.com/theme/shophistic-lite/
 Description: Shophistic Lite is the perfect theme for your shop online. With a beautiful and unique design, is responsive and fully compatible with WooCommerce. The easiest way to create your store online. If you need more features you should check the PRO version, Shophistic: https://www.quemalabs.com/theme/shophistic/
-Version: 1.0.2
+Version: 1.0.3
 Author: Quema Labs
 Author URI: https://www.quemalabs.com/
 License: GNU General Public License v3 or later
@@ -469,7 +469,7 @@ Nav Button
   opacity: 1;
 }
 .ql_nav_btn:hover {
-  color: #ffffff;
+  color: #fff;
   background-color: #c3a769;
 }
 .ql_nav_btn:active {
@@ -501,7 +501,7 @@ Nav Sidebar
   color: #777777;
 }
 .nav_sidebar a:hover {
-  color: #ffffff;
+  color: #fff;
 }
 .nav_sidebar .table-wrap {
   display: table;
@@ -656,7 +656,7 @@ Nav Sidebar
   text-align: center;
   font-size: 18px;
   background-color: #c3a769;
-  color: #ffffff;
+  color: #fff;
   -webkit-transition: all 200ms linear;
   -o-transition: all 200ms linear;
   transition: all 200ms linear;
@@ -665,7 +665,7 @@ Nav Sidebar
 }
 .ql_nav_close:hover {
   background-color: #c3a769;
-  color: #ffffff;
+  color: #fff;
 }
 /*
 Sub Nav Sidebar
@@ -953,7 +953,7 @@ Search
 }
 .pagination a,
 .pagination span {
-  background-color: #ffffff;
+  background-color: #fff;
   border: 2px solid #eeeeee;
   color: #777777;
   float: left;
@@ -977,11 +977,11 @@ Search
 }
 .pagination li.active a {
   background-color: #c3a769;
-  color: #ffffff;
+  color: #fff;
   border-color: #c3a769;
 }
 .pagination li.active a:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   color: #c3a769;
   border-color: #c3a769;
   cursor: pointer;
@@ -3680,7 +3680,7 @@ ol.commentlist .comment-entry span.arrow_comment {
   display: none;
 }
 .ql_woo_cart_button:hover {
-  color: #ffffff;
+  color: #fff;
   background-color: #c3a769;
 }
 .ql_header2 .ql_woo_cart_button {
@@ -3705,7 +3705,7 @@ ol.commentlist .comment-entry span.arrow_comment {
 }
 #ql_woo_cart .widget_shopping_cart .widgettitle {
   font-size: 20px;
-  color: #ffffff;
+  color: #fff;
   margin-top: 10px;
 }
 /* Close button */
@@ -3720,14 +3720,14 @@ ol.commentlist .comment-entry span.arrow_comment {
   text-align: center;
   font-size: 18px;
   background-color: #c3a769;
-  color: #ffffff;
+  color: #fff;
   -webkit-transition: all 200ms linear;
   -o-transition: all 200ms linear;
   transition: all 200ms linear;
   outline: 0!important;
 }
 .ql_woo_cart_close:hover {
-  background-color: #ffffff;
+  background-color: #fff;
   color: #c3a769;
 }
 #ql_woo_cart ul.cart_list li {
@@ -5131,7 +5131,7 @@ a img.aligncenter {
 .wpb_wrapper .products .product-category h3 {
   background-color: #c3a769;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
   padding: 15px 20px!important;
   z-index: 3;
   position: relative;
@@ -5424,7 +5424,7 @@ Hide the icon
   color: #0a9878;
 }
 .contrast_bck {
-  background-color: #ffffff;
+  background-color: #fff;
 }
 /* Make Space between sections											*/
 /*----------------------------------------------------------------------*/
@@ -5503,9 +5503,9 @@ textarea {
   line-height: 1.42857143;
   color: #4d4d4d;
   vertical-align: middle;
-  background-color: #ffffff;
+  background-color: #fff;
   background-image: none;
-  border: 2px solid #cccccc;
+  border: 2px solid #ccc;
   border-radius: 3px;
   margin-bottom: 0.71428571428571em;
 }
@@ -5518,16 +5518,16 @@ textarea:focus {
 }
 input::-moz-placeholder,
 textarea::-moz-placeholder {
-  color: #999999;
+  color: #999;
   opacity: 1;
 }
 input:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
-  color: #999999;
+  color: #999;
 }
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
-  color: #999999;
+  color: #999;
 }
 input[disabled],
 textarea[disabled],

@@ -5,7 +5,7 @@
                     <div class="sub_footer">
                             
                         <p>
-                        <?php esc_html_e( 'Powered by ', 'shophistic-lite' ); ?><a href="<?php echo esc_url( __( 'https://wordpress.org/', 'shophistic-lite' ) ); ?>"><?php esc_html_e( 'WordPress', 'shophistic-lite' ); ?></a>. <?php esc_html_e( 'Shophistic Lite designed by ', 'shophistic-lite' ); ?><a rel="nofollow" href="<?php echo esc_url( __( 'https://www.quemalabs.com/', 'shophistic-lite' ) ); ?>"><?php esc_html_e( 'Quema Labs', 'shophistic-lite' ); ?></a>.
+                        <?php esc_html_e( 'Powered by ', 'shophistic-lite' ); ?><a href="<?php echo esc_url( __( 'https://wordpress.org/', 'shophistic-lite' ) ); ?>"><?php esc_html_e( 'WordPress', 'shophistic-lite' ); ?></a>. <?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'shophistic-lite' ), 'Shophistic Lite', '<a href="https://www.quemalabs.com/" rel="designer">Quema Labs</a>' ); ?>
                         </p>
 
                         <?php get_template_part( '/templates/menu', 'social' ); ?>
