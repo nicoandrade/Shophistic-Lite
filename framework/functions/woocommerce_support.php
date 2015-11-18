@@ -336,10 +336,12 @@ add_action( 'woocommerce_after_shop_loop_item_title', 'shophistic_lite_show_attr
 //Remove prettyPhoto lightbox
 add_action( 'wp_enqueue_scripts', 'shophistic_lite_remove_woo_lightbox', 99 );
 function shophistic_lite_remove_woo_lightbox() {
-    remove_action( 'wp_head', array( $GLOBALS['woocommerce'], 'generator' ) );
+	if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
+    	remove_action( 'wp_head', array( $GLOBALS['woocommerce'], 'generator' ) );
         wp_dequeue_style( 'woocommerce_prettyPhoto_css' );
         wp_dequeue_script( 'prettyPhoto' );
         wp_dequeue_script( 'prettyPhoto-init' );
+	}
 }
 
 
