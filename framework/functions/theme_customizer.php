@@ -106,7 +106,8 @@ if ( ! function_exists( 'shophistic_lite_customizer_controls' ) ){
 
 		wp_localize_script( 'shophistic_lite_customizer_top_buttons', 'topbtns', array(
 			'pro' => esc_html__( 'View PRO version', 'shophistic-lite' ),
-            'documentation' => esc_html__( 'Documentation', 'shophistic-lite' )
+            'documentation' => esc_html__( 'Documentation', 'shophistic-lite' ),
+            'reviews' => esc_html__( 'Leave a review (it help us)', 'shophistic-lite' )
 		) );
 	}
 }//end if function_exists

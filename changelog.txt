@@ -1,3 +1,9 @@
+* 1.0.5 - 26/11/2015
+====================
+- Added: review button on customizer
+- Improve: theme description
+
+
 * 1.0.4 - 14/11/2015
 ====================
 - Fixed: minor error when WooCommerce is not active

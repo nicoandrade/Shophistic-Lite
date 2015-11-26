@@ -27,6 +27,10 @@ The PRO version is called "Shophistic" and includes tons of more features. You c
 http://www.quemalabs.com/theme/shophistic/
 
 
+= Development =
+You can find Shophistic Lite in Github and create issues or improvements there:
+https://github.com/nicoandrade/Shophistic-Lite
+
 = Quick Specs =
 
 1. The main content width is 900px.
