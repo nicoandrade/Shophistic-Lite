@@ -157,7 +157,11 @@
 				var option_val = $(this).attr('data-value');
 				var slect_id = $(this).parents(".ql_select_id").attr('id');;
 				slect_id = slect_id.replace("ql_", "");
-				$("#"+slect_id).val(option_val);
+				$("#"+slect_id + ' option').each(function(index, el) {
+					$(el).removeAttr('selected');
+				});
+				$("#"+slect_id + ' option[value="' + option_val + '"]').prop('selected', true).attr('selected', 'selected');
+				//$("#"+slect_id).val(option_val);
 				$("#"+slect_id).change();
 
 				$(this).parents(".ql_select_id").find("a").removeClass("current");
