@@ -22,6 +22,9 @@ So, the first step would be to create a new menu under the “Appearance > Menus
 
 And, for the last part, be sure to select “Social” for the “Theme Location” before saving your menu.
 
+* Where do I find the Demo XML import file?
+You can download it from here: http://cl.ly/3h2K0P373B11
+
 * How to get the PRO version of Shophistic Lite
 The PRO version is called "Shophistic" and includes tons of more features. You can buy it here:
 http://www.quemalabs.com/theme/shophistic/

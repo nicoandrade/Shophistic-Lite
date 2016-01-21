@@ -1,12 +1,18 @@
 <?php
 /**
- * The template for displaying product content within loops.
+ * The template for displaying product content within loops
  *
- * Override this template by copying it to yourtheme/woocommerce/content-product.php
+ * This template can be overridden by copying it to yourtheme/woocommerce/content-product.php.
  *
+ * HOWEVER, on occasion WooCommerce will need to update template files and you (the theme developer).
+ * will need to copy the new files to your theme to maintain compatibility. We try to do this.
+ * as little as possible, but it does happen. When this occurs the version of the template file will.
+ * be bumped and the readme will list any important changes.
+ *
+ * @see     http://docs.woothemes.com/document/template-structure/
  * @author  WooThemes
  * @package WooCommerce/Templates
- * @version 2.4.0
+ * @version 2.5.0
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -43,6 +49,14 @@ if ( 0 == $woocommerce_loop['loop'] % $woocommerce_loop['columns'] ) {
 }
 ?>
 <li <?php post_class( $classes ); ?>>
+	<?php
+	/**
+	 * woocommerce_before_shop_loop_item hook.
+	 *
+	 * @hooked woocommerce_template_loop_product_link_open - 10
+	 */
+	do_action( 'woocommerce_before_shop_loop_item' );
+	?>
 	<div class="ql_regular_product">
         <div class="product_wrap">
             <div class="product_content">
@@ -53,24 +67,9 @@ if ( 0 == $woocommerce_loop['loop'] % $woocommerce_loop['columns'] ) {
 						 *
 						 * @hooked woocommerce_show_product_loop_sale_flash - 10
 						 * @hooked shophistic_lite_template_loop_product_thumbnail - 10
+						 * @hooked woocommerce_template_loop_add_to_cart - 15
 						 */
 						do_action( 'woocommerce_before_shop_loop_item_title' );
-						global $product;
-						$button_icon = "ql-cart-plus";
-						if ($product->product_type == "variable") {
-							$button_icon = "ql-arrow-right";
-						}
-						echo apply_filters( 'woocommerce_loop_add_to_cart_link',
-							sprintf( '<div class="add_to_cart_wrap"><button href="%s" rel="nofollow" data-product_id="%s" data-product_sku="%s" data-quantity="%s" class="button %s product_type_%s"><i class="%s"></i></button></div>',
-								esc_url( $product->add_to_cart_url() ),
-								esc_attr( $product->id ),
-								esc_attr( $product->get_sku() ),
-								esc_attr( isset( $quantity ) ? $quantity : 1 ),
-								$product->is_purchasable() && $product->is_in_stock() ? 'add_to_cart_button' : '',
-								esc_attr( $product->product_type ),
-								$button_icon
-							),
-						$product );
 					?>
 				</a>
                 <div class="product_text">
@@ -84,7 +83,6 @@ if ( 0 == $woocommerce_loop['loop'] % $woocommerce_loop['columns'] ) {
 							 *
 							 * @hooked woocommerce_template_loop_rating - 5
 							 * @hooked woocommerce_template_loop_price - 10
-							 * @hooked woocommerce_template_loop_add_to_cart - 20
 							 */
 							do_action( 'woocommerce_after_shop_loop_item_title' );
 						?>
@@ -92,13 +90,12 @@ if ( 0 == $woocommerce_loop['loop'] % $woocommerce_loop['columns'] ) {
 
 					<?php
 
-						/**
-						 * woocommerce_after_shop_loop_item hook
-						 *
-						 * @hooked woocommerce_template_loop_add_to_cart - 10
-						 */
-						do_action( 'woocommerce_after_shop_loop_item' ); 
-
+							/**
+							 * woocommerce_after_shop_loop_item hook.
+							 *
+							 * @hooked woocommerce_template_loop_product_link_close - 5
+							 */
+							do_action( 'woocommerce_after_shop_loop_item' );
 					?>
 					<div class="clearfix"></div>
 				</div><!-- /product_text -->

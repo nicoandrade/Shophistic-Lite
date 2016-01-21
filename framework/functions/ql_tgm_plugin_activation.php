@@ -28,7 +28,7 @@ function shophistic_lite_register_required_plugins() {
         array(
             'name'               => 'WooCommerce',
             'slug'               => 'woocommerce',
-            'version'           => '2.4.0',
+            'version'           => '2.5.0',
             'required'           => false,
             'force_activation'   => false,
             'force_deactivation' => false,
