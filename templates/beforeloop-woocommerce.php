@@ -8,15 +8,7 @@
             }
             ?>
 
-        <?php
-            /**
-             * woocommerce_sidebar hook
-             *
-             * @hooked woocommerce_get_sidebar - 10
-             */
-            do_action( 'woocommerce_sidebar' );
-
-        ?>
+        
 		
-		<div id="content" class="<?php echo esc_attr( shophistic_lite_content_check_sidebar() ); ?>">
+		  <div id="content" class="<?php echo esc_attr( shophistic_lite_content_check_sidebar() ); ?>">
 

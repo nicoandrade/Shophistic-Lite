@@ -1,3 +1,8 @@
+* 1.0.8 - 18/02/2016
+====================
+- Improved: on mobile now you see the products at the top and sidebar at the bottom
+
+
 * 1.0.7 - 21/01/2016
 ====================
 - Fixed: add to cart issue with WoCommerce 2.5
