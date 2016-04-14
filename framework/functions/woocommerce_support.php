@@ -318,10 +318,11 @@ function shophistic_lite_show_attribute() {
             }//if WP_Error
  
         } else {
- 		
+ 			$out .= '<ul>';
             $out .= '<li class="' . sanitize_title($attribute['name']) . ' ' . sanitize_title($attribute['value']) . '">';
             $out .= '<span class="attribute-label">' . $attribute['name'] . ': </span> ';
             $out .= '<span class="attribute-value">' . $attribute['value'] . '</span></li>';
+            $out .= '</ul>';
         }
     }
  	
