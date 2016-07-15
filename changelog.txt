@@ -1,3 +1,8 @@
+* 1.0.11 - 15/07/2016
+====================
+- Updated: WooCommerce template
+
+
 * 1.0.10 - 14/04/2016
 ====================
 - Fixed: issue with variation but no taxonomies
