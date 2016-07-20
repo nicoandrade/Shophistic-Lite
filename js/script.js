@@ -160,7 +160,8 @@
 				$("#"+slect_id + ' option').each(function(index, el) {
 					$(el).removeAttr('selected');
 				});
-				$("#"+slect_id + ' option[value="' + option_val + '"]').prop('selected', true).attr('selected', 'selected');
+				//$("#"+slect_id + ' option[value="' + option_val + '"]').prop('selected', true).attr('selected', 'selected'); //Old search
+				jQuery("#"+slect_id + ' option').filter(function(){return this.value==option_val}).prop('selected', true).attr('selected', 'selected'); //Better search when there are HTML chars
 				//$("#"+slect_id).val(option_val);
 				$("#"+slect_id).change();
 

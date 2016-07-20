@@ -1,18 +1,18 @@
+#, fuzzy
 msgid ""
 msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Shophistic Lite\n"
-"POT-Creation-Date: 2015-09-28 18:30-0300\n"
-"PO-Revision-Date: 2015-09-28 18:31-0300\n"
+"POT-Creation-Date: 2016-07-20 14:01-0300\n"
+"PO-Revision-Date: 2016-07-20 14:00-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
-"Language: en_US\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.4\n"
+"X-Generator: Poedit 1.8.7\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: style.css\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
 "esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
@@ -75,24 +75,15 @@ msgid "WordPress"
 msgstr ""
 
 #: footer.php:8
-msgid "Shophistic Lite designed by "
+#, php-format
+msgid "Theme: %1$s by %2$s."
 msgstr ""
 
-#. Author URI of the plugin/theme
-#: footer.php:8
-msgid "https://www.quemalabs.com/"
-msgstr ""
-
-#. Author of the plugin/theme
-#: footer.php:8
-msgid "Quema Labs"
-msgstr ""
-
-#: framework/Theme.php:167
+#: framework/Theme.php:165
 msgid "Navigation Menu"
 msgstr ""
 
-#: framework/Theme.php:168
+#: framework/Theme.php:166
 msgid "Social"
 msgstr ""
 
@@ -689,11 +680,15 @@ msgstr ""
 msgid "Documentation"
 msgstr ""
 
-#: framework/functions/theme_customizer.php:121
-msgid "Right"
+#: framework/functions/theme_customizer.php:110
+msgid "Leave a review (it help us)"
 msgstr ""
 
 #: framework/functions/theme_customizer.php:122
+msgid "Right"
+msgstr ""
+
+#: framework/functions/theme_customizer.php:123
 msgid "Left"
 msgstr ""
 
@@ -1034,7 +1029,7 @@ msgstr ""
 msgid "Page"
 msgstr ""
 
-#: woocommerce/single-product/product-image.php:63
+#: woocommerce/single-product/product-image.php:90
 msgid "Placeholder"
 msgstr ""
 
@@ -1048,9 +1043,16 @@ msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"Shophistic Lite is the perfect theme for your shop online. With a beautiful "
+"Shophistic Lite is the perfect theme for your online shop. With a beautiful "
 "and unique design, is responsive and fully compatible with WooCommerce. The "
-"easiest way to create your store online. If you need more features you "
-"should check the PRO version, Shophistic: https://www.quemalabs.com/theme/"
-"shophistic/"
+"easiest way to create your online store and customize it with no coding "
+"skills required!"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Quema Labs"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.quemalabs.com/"
 msgstr ""
