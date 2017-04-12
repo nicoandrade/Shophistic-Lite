@@ -35,12 +35,14 @@ if (!function_exists('shophistic_lite_wrapper_end')) {
 }
 
 // Removes the "Product Category:" from the Archive Title
-add_filter( 'get_the_archive_title', function ( $title ) {
+add_filter( 'get_the_archive_title', 'shophistic_lite_remove_archive_title' );
+function shophistic_lite_remove_archive_title( $title ) {
     if( is_tax() ) {
         $title = single_cat_title( '', false );
     }
     return $title;
-});
+}
+
 
 //Adds rating into the Product Thumbnail
 remove_action( 'woocommerce_after_shop_loop_item_title', 'woocommerce_template_loop_rating', 5);
@@ -168,7 +170,7 @@ if (!function_exists('shophistic_lite_template_loop_product_thumbnail')) {
 
 		//Get one more image
 		global $product;
-		$attachment_ids = $product->get_gallery_attachment_ids();
+		$attachment_ids = $product->get_gallery_image_ids();
 		if ( $attachment_ids > 0 ) {
 			$default_attr = array(
 				'class'	=> "product_second_img"
@@ -295,7 +297,7 @@ function shophistic_lite_show_attribute() {
 
         if ( $attribute['is_taxonomy'] ) {
 
-            $terms = wp_get_post_terms( $product->id, $attribute['name'], 'all' );
+            $terms = wp_get_post_terms( $product->get_id(), $attribute['name'], 'all' );
 
             if ( !is_wp_error( $terms ) ) {
 	            // get the taxonomy

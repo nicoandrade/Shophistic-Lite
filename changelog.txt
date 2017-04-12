@@ -1,3 +1,11 @@
+* 1.0.13 - 12/04/2017
+====================
+- Added: WooCommerce 3 support
+- Fixed: Error on some server with woocommerce_support.php
+- Improved: On changing variations the slider goes to the first slide
+- Improved: Now the Cart button links to Cart page on mobile
+- Updated: TGM Class
+
 * 1.0.12 - 20/07/2016
 ====================
 - Updated: WooCommerce templates

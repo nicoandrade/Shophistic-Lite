@@ -12,7 +12,7 @@
  * @see 	    http://docs.woothemes.com/document/template-structure/
  * @author 		WooThemes
  * @package 	WooCommerce/Templates
- * @version     2.5.0
+ * @version     3.0.0
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -21,14 +21,17 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 global $product;
 $button_icon = "ql-cart-plus";
-if ($product->product_type == "variable") {
+if ( $product->is_type( 'variable' ) ) {
 	$button_icon = "ql-arrow-right";
+}
+if ( $product->is_type( 'external' ) ) {
+	$button_icon = "fa fa-link";
 }
 echo apply_filters( 'woocommerce_loop_add_to_cart_link',
 	sprintf( '<div class="add_to_cart_wrap"><button rel="nofollow" href="%s" data-quantity="%s" data-product_id="%s" data-product_sku="%s" class="%s"><i class="%s"></i></button></div>',
 		esc_url( $product->add_to_cart_url() ),
 		esc_attr( isset( $quantity ) ? $quantity : 1 ),
-		esc_attr( $product->id ),
+		esc_attr( $product->get_id() ),
 		esc_attr( $product->get_sku() ),
 		esc_attr( isset( $class ) ? $class : 'button' ),
 		esc_attr( $button_icon )

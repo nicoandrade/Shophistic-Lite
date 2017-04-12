@@ -15,6 +15,15 @@
 			});
 
 
+			/*
+			WooCommerce Cart Widget Button
+			=========================================================
+			*/
+			$('body').on('click', '.ql_cart-btn', function(event) {
+				event.preventDefault();
+				/* Act on the event */
+				window.location.href = $(this).attr('href');
+			});
 
 
 			/*Woocommerce Cart
@@ -168,9 +177,14 @@
 				$(this).parents(".ql_select_id").find("a").removeClass("current");
 				$(this).addClass("current");
 			});
+			//Send the slider to the first slide in case there is a change of the main image
+			$( "body" ).on( "woocommerce_variation_select_change", function () {
+		    	ql_owl_woo.trigger('to.owl.carousel', 0);
+			} );
 			/*			
 			//===========================================================
 			*/
+
 
 
 
