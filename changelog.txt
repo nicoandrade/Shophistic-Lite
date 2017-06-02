@@ -1,3 +1,8 @@
+* 1.0.15 - 02/06/2017
+====================
+- Fixed: Images switch on variable products
+
+
 * 1.0.14 - 15/04/2017
 ====================
 - Added: WooCommerce 3.0.3 support

@@ -56,7 +56,7 @@ $wrapper_classes   = apply_filters( 'woocommerce_single_product_image_gallery_cl
 
 						//Add Feature Image
 						echo apply_filters( 'woocommerce_single_product_image_html', 
-							sprintf( '<a href="%s" itemprop="image" class="woocommerce-main-image zoom" title="%s" data-width="%s" data-height="%s">%s</a>',
+							sprintf( '<a href="%s" itemprop="image" class="woocommerce-main-image woocommerce-product-gallery__image zoom" title="%s" data-width="%s" data-height="%s">%s</a>',
 								$image_link,
 								$image_caption,
 								$image_metadata['width'],
