@@ -183,9 +183,8 @@ class shophistic_lite_Theme {
 			) );
 
 			// Styles for TinyMCE
-		    add_editor_style( SHOPHISTIC_CSS . '/custom-editor-style.css' );
-		    $font_url = str_replace( ',', '%2C', '//fonts.googleapis.com/css?family=Lato:300,400,700' );
-    		add_editor_style( $font_url );
+    		$font_url = str_replace( ',', '%2C', '//fonts.googleapis.com/css?family=Lato:300,400,700' );
+    		add_editor_style( array( 'css/bootstrap.css', 'css/editor-style.css', $font_url )  );
 
 		}
 		add_action( 'after_setup_theme', 'shophistic_lite_setup' );
