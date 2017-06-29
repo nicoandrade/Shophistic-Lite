@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Shophistic Lite\n"
-"POT-Creation-Date: 2017-04-12 12:05-0300\n"
-"PO-Revision-Date: 2017-04-12 12:05-0300\n"
+"POT-Creation-Date: 2017-06-29 12:43-0300\n"
+"PO-Revision-Date: 2017-06-29 12:43-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -938,8 +938,8 @@ msgstr ""
 msgid "Page"
 msgstr ""
 
-#: woocommerce/single-product/product-image.php:102
-msgid "Placeholder"
+#: woocommerce/single-product/product-image.php:98
+msgid "Awaiting product image"
 msgstr ""
 
 #. Theme Name of the plugin/theme

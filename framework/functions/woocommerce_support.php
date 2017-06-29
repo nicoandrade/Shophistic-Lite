@@ -348,5 +348,19 @@ function shophistic_lite_remove_woo_lightbox() {
 	}
 }
 
+/**
+ * Add support for PhotoSwipe on WooCommerce Images
+ */
+if ( ! function_exists( 'shophistic_lite_woocommerce_image_photoswipe' ) ) {
+	function shophistic_lite_woocommerce_image_photoswipe( $html, $thumbnail_id ) {
 
-?>
+		$full_size_image   = wp_get_attachment_image_src( $thumbnail_id, 'full' );
+		$to_replace = 'class="woocommerce-product-gallery__image"><a data-width="' . esc_attr( $full_size_image[1] ) . '" data-height="' . esc_attr( $full_size_image[2] ) . '"';
+
+		$html = str_replace( 'class="woocommerce-product-gallery__image"><a', $to_replace, $html );
+
+		return $html;
+
+	}
+}
+add_filter( 'woocommerce_single_product_image_thumbnail_html', 'shophistic_lite_woocommerce_image_photoswipe', 10, 2 );
