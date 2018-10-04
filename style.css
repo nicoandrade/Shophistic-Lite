@@ -58,7 +58,7 @@ LESS Variables and Mixins
   -o-transition: opacity 600ms, transform 600ms;
   transition: opacity 600ms, transform 600ms;
   position: relative;
-  z-index: 30;
+  z-index: 50;
 }
 .pace-done .ql_logo_nav,
 .no-js .ql_logo_nav {
