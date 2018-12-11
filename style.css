@@ -2,7 +2,7 @@
 Theme Name: Shophistic Lite
 Theme URI: https://www.quemalabs.com/theme/shophistic-lite/
 Description: Shophistic Lite is the perfect theme for your online shop. With a beautiful and unique design, is responsive and fully compatible with WooCommerce. The easiest way to create your online store and customize it with no coding skills required!
-Version: 1.0.19
+Version: 1.0.20
 Author: Quema Labs
 Author URI: https://www.quemalabs.com/
 License: GNU General Public License v3 or later
@@ -58,7 +58,7 @@ LESS Variables and Mixins
   -o-transition: opacity 600ms, transform 600ms;
   transition: opacity 600ms, transform 600ms;
   position: relative;
-  z-index: 30;
+  z-index: 50;
 }
 .pace-done .ql_logo_nav,
 .no-js .ql_logo_nav {
@@ -147,7 +147,7 @@ Nav Menu
   -o-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out;
   color: #777777;
-  padding: 0.71428571428571em 1.07142857142857em;
+  padding: 0.71428571em 1.07142857em;
 }
 #jqueryslidemenu ul.nav > li > a:hover {
   background-color: rgba(0, 0, 0, 0.02);
@@ -180,7 +180,7 @@ Nav Menu
 #jqueryslidemenu ul.nav > li > ul > li a {
   font-size: 13px;
   font-size: 0.8125rem;
-  padding: 0.5em 1.42857142857143em;
+  padding: 0.5em 1.42857143em;
   font-weight: bold;
 }
 #jqueryslidemenu ul.nav > li > ul > li.menu-item-has-children > a {
@@ -218,7 +218,7 @@ Nav Menu
   border: none;
   padding: 0;
   cursor: inherit;
-  outline: 0!important;
+  outline: 0 !important;
 }
 #jqueryslidemenu ul.nav > li > ul .has-image img {
   width: 100%;
@@ -279,7 +279,7 @@ Login and Cart Buttons
   margin: 5px 0;
   border-right: 1px solid #b3b3b3;
   display: block;
-  outline: 0!important;
+  outline: 0 !important;
 }
 /* Cart ------------*/
 .ql_cart_wrap {
@@ -445,7 +445,7 @@ Nav Button
   left: 20px;
   top: 5rem;
   top: 8.5vh;
-  outline: 0!important;
+  outline: 0 !important;
   width: 40px;
   height: 40px;
   opacity: 0;
@@ -651,10 +651,10 @@ Nav Sidebar
   position: absolute;
   right: -2.22222222em;
   top: 0;
-  width: 2.22222222222222em;
-  height: 2.22222222222222em;
+  width: 2.22222222em;
+  height: 2.22222222em;
   display: block;
-  line-height: 2.22222222222222em;
+  line-height: 2.22222222em;
   text-align: center;
   font-size: 18px;
   background-color: #c3a769;
@@ -662,7 +662,7 @@ Nav Sidebar
   -webkit-transition: all 200ms linear;
   -o-transition: all 200ms linear;
   transition: all 200ms linear;
-  outline: 0!important;
+  outline: 0 !important;
   border-radius: 0 3px 3px 0;
 }
 .ql_nav_close:hover {
@@ -801,27 +801,27 @@ Search
   text-align: left;
 }
 #breadcrumbs a {
-  font-size: 0.76923076923077em;
+  font-size: 0.76923077em;
   color: #fff;
 }
 #breadcrumbs a:hover {
   text-decoration: underline;
 }
 #breadcrumbs span {
-  font-size: 0.76923076923077em;
+  font-size: 0.76923077em;
 }
 /*Page Title 								*/
 /*------------------------------------------*/
 .page-title {
   border-bottom: 2px solid #eeeeee;
   margin-top: 0;
-  margin-bottom: 0.97560975609756em;
-  padding-bottom: 0.36585365853659em;
+  margin-bottom: 0.97560976em;
+  padding-bottom: 0.36585366em;
 }
 /*Post Title 								*/
 /*------------------------------------------*/
 .post_title {
-  margin-bottom: 0.88235294117647em;
+  margin-bottom: 0.88235294em;
   margin-top: 0;
   border-top: 3px solid #eeeeee;
   padding-top: 20px;
@@ -846,7 +846,7 @@ Search
   margin-bottom: 180px;
 }
 .single article {
-  margin-bottom: 2.30769230769231em;
+  margin-bottom: 2.30769231em;
   padding-bottom: 0;
 }
 .post_content_wrap {
@@ -864,7 +864,7 @@ Search
   padding-top: 20px;
 }
 .more-link {
-  margin-top: 0.41666666666667em;
+  margin-top: 0.41666667em;
   text-indent: -12px;
   -webkit-transition: all ease 200ms;
   -o-transition: all ease 200ms;
@@ -929,7 +929,7 @@ Search
   font-style: normal;
 }
 .metadata ul li i {
-  margin-right: 0.35714285714286em;
+  margin-right: 0.35714286em;
   font-size: 14px;
   font-size: 0.875rem;
   text-align: center;
@@ -1125,7 +1125,7 @@ Widgets
 }
 #sidebar .widget > ul li > a {
   color: #777777;
-  padding: 0.63636363636364em 0;
+  padding: 0.63636364em 0;
   display: block;
   font-weight: normal;
   -webkit-transition: all 200ms;
@@ -1158,7 +1158,7 @@ Widgets
   position: absolute;
   top: 12px;
   right: 5px;
-  font-size: 1.16666666666667em;
+  font-size: 1.16666667em;
 }
 #sidebar select {
   margin-left: 5px;
@@ -1197,7 +1197,7 @@ Recent Comments Widget
   color: #b3b3b3;
   left: 0;
   top: 20%;
-  font-size: 1.45454545454545em;
+  font-size: 1.45454545em;
 }
 #sidebar .widget_recent_comments ul li a {
   display: inline;
@@ -1225,7 +1225,7 @@ Tag Widget
 }
 #sidebar .widget_tag ul li {
   display: inline-block;
-  margin: 0 0.90909090909091em 0.90909090909091em 0;
+  margin: 0 0.90909091em 0.90909091em 0;
   float: left;
   border: none;
 }
@@ -1604,7 +1604,7 @@ Payments Options
   color: #b3b3b3;
   font-size: 28px;
   font-size: 1.75rem;
-  margin-left: 0.71428571428571em;
+  margin-left: 0.71428571em;
   line-height: 1em;
 }
 .ql_payments_options ul li:hover,
@@ -1627,7 +1627,7 @@ Payments Options
 }
 .commentlist {
   margin-left: 0;
-  margin-top: 2.30769230769231em;
+  margin-top: 2.30769231em;
   padding: 0;
 }
 #comments ol.commentlist li {
@@ -1663,7 +1663,7 @@ Payments Options
 #comments .comment-author cite {
   font-weight: bold;
   margin-top: 4px;
-  font-size: 0.92307692307692em;
+  font-size: 0.92307692em;
   display: block;
 }
 #comments .comment-author cite,
@@ -1689,7 +1689,7 @@ ol.commentlist .bypostauthor .comment-entry {
   border-color: #4d4d4d;
 }
 ol.commentlist li .comment-entry div.inner-comment {
-  padding: 1.42857142857143em;
+  padding: 1.42857143em;
 }
 ol.commentlist li .comment-entry div.inner-comment p {
   margin-bottom: 0;
@@ -1775,7 +1775,7 @@ ol.commentlist .comment-entry span.arrow_comment {
   position: relative;
 }
 #respond input {
-  padding-left: 2.30769230769231em;
+  padding-left: 2.30769231em;
   width: 100%;
 }
 #respond input:focus {
@@ -1791,7 +1791,7 @@ ol.commentlist .comment-entry span.arrow_comment {
 #respond textarea {
   width: 100%;
   height: 150px;
-  margin-bottom: 1.42857142857143em;
+  margin-bottom: 1.42857143em;
 }
 #respond textarea:focus {
   border-color: #777777;
@@ -1801,8 +1801,8 @@ ol.commentlist .comment-entry span.arrow_comment {
 }
 #respond .controls-wrap i {
   position: absolute;
-  left: 0.71428571428571em;
-  top: 0.71428571428571em;
+  left: 0.71428571em;
+  top: 0.71428571em;
   color: #c4c4c4;
   font-size: 14px;
   font-size: 0.875rem;
@@ -1982,7 +1982,7 @@ ol.commentlist .comment-entry span.arrow_comment {
   letter-spacing: normal;
   vertical-align: top;
   word-spacing: normal;
-  margin-right: 1.2%!important;
+  margin-right: 1.2% !important;
   margin-bottom: 20px;
   -webkit-transition: transform 200ms;
   -o-transition: transform 200ms;
@@ -2038,7 +2038,7 @@ ol.commentlist .comment-entry span.arrow_comment {
   }
   .woocommerce ul.products li.last,
   .woocommerce-page ul.products li.last {
-    margin-right: 1.2%!important;
+    margin-right: 1.2% !important;
   }
 }
 @media (max-width: 767px) {
@@ -2078,7 +2078,7 @@ ol.commentlist .comment-entry span.arrow_comment {
 }
 .woocommerce .products .product .product_desc,
 .woocommerce-page .products .product .product_desc {
-  padding: 1.42857142857143em;
+  padding: 1.42857143em;
 }
 .woocommerce .products .product .product_second_img {
   position: absolute;
@@ -2490,8 +2490,8 @@ ol.commentlist .comment-entry span.arrow_comment {
   box-shadow: none;
   margin: 0!important;
   padding: 4px!important;
-  right: 0.71428571428571em;
-  top: 0.71428571428571em;
+  right: 0.71428571em;
+  top: 0.71428571em;
   line-height: 1em;
   height: 20px!important;
   min-height: 20px!important;
@@ -2683,7 +2683,7 @@ ol.commentlist .comment-entry span.arrow_comment {
   letter-spacing: normal;
   vertical-align: top;
   word-spacing: normal;
-  margin-right: 1.2%!important;
+  margin-right: 1.2% !important;
   margin-bottom: 20px;
   -webkit-transition: transform 200ms;
   -o-transition: transform 200ms;
@@ -2697,7 +2697,7 @@ ol.commentlist .comment-entry span.arrow_comment {
 }
 .woocommerce ul.ql_products_big li.last,
 .woocommerce-page ul.ql_products_big li.last {
-  margin-right: 1.2%!important;
+  margin-right: 1.2% !important;
 }
 .woocommerce .ql_products_big .product .product_content {
   position: relative;
@@ -2811,7 +2811,7 @@ ol.commentlist .comment-entry span.arrow_comment {
   }
   .woocommerce ul.products li.last,
   .woocommerce-page ul.products li.last {
-    margin-right: 1.2%!important;
+    margin-right: 1.2% !important;
   }
   .woocommerce #main ul.ql_products_big li.product h3,
   .woocommerce-page ul.ql_products_big li.product h3 {
@@ -3002,7 +3002,7 @@ ol.commentlist .comment-entry span.arrow_comment {
 }
 .product_title {
   font-weight: bold;
-  margin-bottom: 0.73170731707317em;
+  margin-bottom: 0.73170732em;
 }
 .woocommerce .quantity input.qty,
 .woocommerce-page .quantity input.qty,
@@ -3030,7 +3030,7 @@ ol.commentlist .comment-entry span.arrow_comment {
   font-size: 48px;
   font-size: 3rem;
   font-weight: bold;
-  margin-bottom: 0.41666666666667em!important;
+  margin-bottom: 0.41666667em !important;
   color: #0a9878;
 }
 .woocommerce-page #content div.product p.price del {
@@ -3312,11 +3312,11 @@ ol.commentlist .comment-entry span.arrow_comment {
   text-transform: uppercase;
   font-size: 22px;
   font-size: 1.375rem;
-  margin-bottom: 1.36363636363636em;
+  margin-bottom: 1.36363636em;
 }
 .woocommerce #main .products.related .product,
 .woocommerce-page .products.related .product {
-  width: 18.6%!important;
+  width: 18.6% !important;
 }
 /* Up-Sell products (You may also like...)
 ---------------------*/
@@ -3715,10 +3715,10 @@ ol.commentlist .comment-entry span.arrow_comment {
   position: absolute;
   left: -2.22222222em;
   top: 0;
-  width: 2.22222222222222em;
-  height: 2.22222222222222em;
+  width: 2.22222222em;
+  height: 2.22222222em;
   display: block;
-  line-height: 2.22222222222222em;
+  line-height: 2.22222222em;
   text-align: center;
   font-size: 18px;
   background-color: #c3a769;
@@ -3913,7 +3913,7 @@ ol.commentlist .comment-entry span.arrow_comment {
 .woocommerce ul.product_list_widget li,
 .woocommerce-page ul.cart_list li,
 .woocommerce-page ul.product_list_widget li {
-  font-size: 1.14285714285714em;
+  font-size: 1.14285714em;
 }
 .widget.woocommerce ul li a:hover {
   text-indent: 0 !important;
@@ -4041,7 +4041,8 @@ ol.commentlist .comment-entry span.arrow_comment {
   background-color: #f9f9f9;
   padding-right: 30px;
 }
-.widget_product_search input[type="submit"] {
+.widget_product_search input[type="submit"],
+.widget_product_search button[type="submit"] {
   width: 38%;
   display: none;
 }
@@ -4128,13 +4129,13 @@ ol.commentlist .comment-entry span.arrow_comment {
 .woocommerce-info {
   border-top: none!important;
   text-shadow: none!important;
-  color: #fff!important;
+  color: #fff !important;
   clear: both;
 }
 .woocommerce-message a,
 .woocommerce-error a,
 .woocommerce-info a {
-  color: #fff!important;
+  color: #fff !important;
   font-weight: bold;
   font-size: 14px;
   font-size: 0.875rem;
@@ -4146,7 +4147,7 @@ ol.commentlist .comment-entry span.arrow_comment {
   color: #f2f2f2 !important;
 }
 .woocommerce-info {
-  background-color: #3D9CD2!important;
+  background-color: #3D9CD2 !important;
   border-left: 5px solid #2e90c7 !important;
 }
 .woocommerce-error {
@@ -4154,7 +4155,7 @@ ol.commentlist .comment-entry span.arrow_comment {
   border-left: 5px solid #e60000 !important;
 }
 .woocommerce-message {
-  background-color: #06a67e!important;
+  background-color: #06a67e !important;
   border-left: 5px solid #006700 !important;
 }
 .woocommerce .woocommerce-error:before,
@@ -4169,13 +4170,13 @@ ol.commentlist .comment-entry span.arrow_comment {
 .woocommerce-error .button,
 .woocommerce-info .button {
   background-color: transparent!important;
-  border: 2px solid #fff!important;
+  border: 2px solid #fff !important;
 }
 .woocommerce-message .button:hover,
 .woocommerce-error .button:hover,
 .woocommerce-info .button:hover {
-  background-color: #fff!important;
-  border: 2px solid #fff!important;
+  background-color: #fff !important;
+  border: 2px solid #fff !important;
   color: #4d4d4d !important;
 }
 .woocommerce_btn {
@@ -4269,7 +4270,7 @@ ol.commentlist .comment-entry span.arrow_comment {
 }
 #footer .widget_product_categories ul .cat-item.current-cat a,
 #footer .widget_layered_nav ul li.chosen a {
-  color: #fff!important;
+  color: #fff !important;
 }
 .widget .amount {
   font-size: 16px;
@@ -4476,7 +4477,7 @@ ol.commentlist .comment-entry span.arrow_comment {
   right: 0px;
   width: 100px;
   height: 100%;
-  opacity: 1.0;
+  opacity: 1;
   -webkit-transform: rotate(3deg) translate(0px, -4px);
   -moz-transform: rotate(3deg) translate(0px, -4px);
   -ms-transform: rotate(3deg) translate(0px, -4px);
@@ -5164,10 +5165,10 @@ a img.aligncenter {
   text-decoration: none;
 }
 .ql_slider_btn.black {
-  color: #000!important;
+  color: #000 !important;
 }
 .ql_slider_btn.white {
-  color: #fff!important;
+  color: #fff !important;
   border-color: #fff;
 }
 @media (max-width: 767px) {
@@ -5263,7 +5264,7 @@ iframe {
   border: 2px solid transparent;
   color: #777777;
   border-radius: border-radius-base;
-  font-size: 0.85714285714286em;
+  font-size: 0.85714286em;
   font-weight: bold;
   -webkit-transition: translate 100ms ease-in-out, opacity 200ms ease-in-out;
   -o-transition: translate 100ms ease-in-out, opacity 200ms ease-in-out;
@@ -5280,7 +5281,7 @@ iframe {
 /* Apply the custom-colored gradients */
 /* Note: you'll need to include all the appropriate gradients for various browsers and standards. */
 .btn-ql > i {
-  font-size: 1.16666666666667em;
+  font-size: 1.16666667em;
   position: absolute;
   left: 44%;
   top: -2em;
@@ -5295,11 +5296,11 @@ iframe {
 }
 /*For special occacions */
 .btn-ql > b.ql_sec_icon {
-  font-size: 1.16666666666667em;
+  font-size: 1.16666667em;
   font-weight: normal;
   position: absolute;
   left: 43%;
-  top: 0.57142857142857em;
+  top: 0.57142857em;
   -webkit-transition: all 200ms ease-in-out;
   -o-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out;
@@ -5335,7 +5336,7 @@ Show the icon
     top: -2em;
   }
   100% {
-    top: 0.71428571428571em;
+    top: 0.71428571em;
   }
 }
 @-moz-keyframes btn_out {
@@ -5343,7 +5344,7 @@ Show the icon
     top: -2em;
   }
   100% {
-    top: 0.71428571428571em;
+    top: 0.71428571em;
   }
 }
 @-o-keyframes btn_out {
@@ -5351,7 +5352,7 @@ Show the icon
     top: -2em;
   }
   100% {
-    top: 0.71428571428571em;
+    top: 0.71428571em;
   }
 }
 @keyframes btn_out {
@@ -5359,7 +5360,7 @@ Show the icon
     top: -2em;
   }
   100% {
-    top: 0.71428571428571em;
+    top: 0.71428571em;
   }
 }
 /*
@@ -5367,7 +5368,7 @@ Hide the icon
 */
 @-webkit-keyframes btn_in {
   0% {
-    top: 0.71428571428571em;
+    top: 0.71428571em;
   }
   100% {
     top: 4em;
@@ -5375,7 +5376,7 @@ Hide the icon
 }
 @-moz-keyframes btn_in {
   0% {
-    top: 0.71428571428571em;
+    top: 0.71428571em;
   }
   100% {
     top: 4em;
@@ -5383,7 +5384,7 @@ Hide the icon
 }
 @-o-keyframes btn_in {
   0% {
-    top: 0.71428571428571em;
+    top: 0.71428571em;
   }
   100% {
     top: 4em;
@@ -5391,7 +5392,7 @@ Hide the icon
 }
 @keyframes btn_in {
   0% {
-    top: 0.71428571428571em;
+    top: 0.71428571em;
   }
   100% {
     top: 4em;
@@ -5431,7 +5432,7 @@ Hide the icon
 /* Make Space between sections											*/
 /*----------------------------------------------------------------------*/
 .clear_space {
-  margin: 2.30769230769231em 0;
+  margin: 2.30769231em 0;
 }
 /* Hover effect for thumbnails											*/
 /*----------------------------------------------------------------------*/
@@ -5509,7 +5510,7 @@ textarea {
   background-image: none;
   border: 2px solid #ccc;
   border-radius: 3px;
-  margin-bottom: 0.71428571428571em;
+  margin-bottom: 0.71428571em;
 }
 input:focus,
 textarea:focus {
@@ -5679,7 +5680,7 @@ input[type="submit"] {
 	---------------------*/
   .woocommerce #main .products.related .product,
   .woocommerce-page .products.related .product {
-    width: 46.5%!important;
+    width: 46.5% !important;
     margin-right: 2.8% !important;
   }
   #ql_search_header .woocommerce-product-search {
@@ -5765,7 +5766,7 @@ input[type="submit"] {
 	---------------------*/
   .woocommerce #main .products.related .product,
   .woocommerce-page .products.related .product {
-    width: 31.6%!important;
+    width: 31.6% !important;
   }
   #ql_search_header .woocommerce-product-search .search-field {
     width: 70%;

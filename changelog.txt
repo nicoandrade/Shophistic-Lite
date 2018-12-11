@@ -1,3 +1,11 @@
+* 1.0.20 - 11/12/2018
+====================
+- Fixed: Search products button
+- Fixed: Slidemenu bug (@dontbyte)
+- Added: WooCommerce 3.5.2 support
+- Improved: Permalink for post image (@lenivene)
+
+
 * 1.0.19 - 30/05/2018
 ====================
 - Fixed: Text domain
