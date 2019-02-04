@@ -1,20 +1,26 @@
 === Shophistic Lite ===
+Contributors: nicoandrade
+Tags: e-commerce, blog, featured-images, two-columns, threaded-comments, custom-menu, left-sidebar, sticky-post, translation-ready, custom-background, full-width-template, rtl-language-support, theme-options
+Requires at least: 4.9.6
+Tested up to: WordPress 5.0.3
+Stable tag: 1.0.21
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
+Shophistic Lite is the perfect theme for your shop online.
+
+
+== Description ==
 Shophistic Lite is the perfect theme for your shop online. With a beautiful and unique design, is responsive and fully compatible with WooCommerce. The easiest way to create your store online. If you need more features you should check the PRO version, Shophistic: https://www.quemalabs.com/theme/shophistic/
-
-License: GPLv3 or later
-License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
 
 
 == Installation ==
-
 1. In your admin panel, go to Appearance -> Themes and click the Add New button.
 2. Click Upload and Choose File, then select the theme's ZIP file. Click Install Now.
 3. Click Activate to use your new theme right away.
 
 
-= Documentation =
-
+== Documentation ==
 * Social Menu
 Using the social nav menu is just like using any other nav menu in WordPress. You just need to add custom links pointing to your social media profiles.
 
@@ -30,34 +36,94 @@ The PRO version is called "Shophistic" and includes tons of more features. You c
 http://www.quemalabs.com/theme/shophistic/
 
 
-= Development =
+== Development ==
 You can find Shophistic Lite in Github and create issues or improvements there:
 https://github.com/nicoandrade/Shophistic-Lite
 
-= Quick Specs =
 
-1. The main content width is 900px.
-2. The sidebar width is 287px.
-3. Featured Images are 900px wide by 505px high.
+== Changelog ==
+
+= 1.0.21 - 04/02/2019 =
+* Improved: CSS class for custom variations colors
+* Fixed: Header CSS issue on small desktop screens
+* Changed: readme.txt
+* Changed: changelog now is on readme.txt file
+
+= 1.0.20 - 11/12/2018 =
+* Fixed: Search products button
+* Fixed: Slidemenu bug (@dontbyte)
+* Added: WooCommerce 3.5.2 support
+* Improved: Permalink for post image (@lenivene)
+
+= 1.0.19 - 30/05/2018 =
+* Fixed: Text domain
+
+= 1.0.18 - 30/05/2018 =
+* Added: WooCommerce 3.4 support
+
+= 1.0.17 - 29/06/2017 =
+* Added: WooCommerce 3.1 support
+
+= 1.0.16 - 18/06/2017 =
+* Fixed: Issues with TinyMCE CSS
+
+= 1.0.15 - 02/06/2017 =
+* Fixed: Images switch on variable products
+
+= 1.0.14 - 15/04/2017 =
+* Added: WooCommerce 3.0.3 support
+
+= 1.0.13 - 12/04/2017 =
+* Added: WooCommerce 3 support
+* Fixed: Error on some server with woocommerce_support.php
+* Improved: On changing variations the slider goes to the first slide
+* Improved: Now the Cart button links to Cart page on mobile
+* Updated: TGM Class
+
+= 1.0.12 - 20/07/2016 =
+* Updated: WooCommerce templates
+* Fixed: Variable products with HTML characters on variations
+
+= 1.0.11 - 15/07/2016 =
+* Updated: WooCommerce template
+
+= 1.0.10 - 14/04/2016 =
+* Fixed: issue with variation but no taxonomies
+
+= 1.0.9 - 21/03/2016 =
+* Fixed: CSS issue on hovering the Cart
+
+= 1.0.8 - 18/02/2016 =
+* Improved: on mobile now you see the products at the top and sidebar at the bottom
+
+= 1.0.7 - 21/01/2016 =
+* Fixed: add to cart issue with WoCommerce 2.5
+* Updated: WooCommerce templates
+
+= 1.0.6 - 15/12/2015 =
+* Fixed: issue with selecting variations on products (ex: colors or sizes)
+
+= 1.0.5 - 26/11/2015 =
+* Added: review button on customizer
+* Improve: theme description
+
+= 1.0.4 - 14/11/2015 =
+* Fixed: minor error when WooCommerce is not active
+
+= 1.0.3 - 13/11/2015 =
+* Fixed: Translatable strings on footer
+
+= 1.0.2 - 30/09/2015 =
+* Fixed: CSS on WooCommerce products archive
+
+= 1.0.1 - 30/09/2015 =
+* Complete Theme Update
+
+= 1.0.0 - 09/09/2015 =
+* Released
 
 
-= Copyrights =
-
-Shophistic Lite WordPress Theme, Copyright 2015 Nicolas Andrade
-Shophistic Lite is distributed under the terms of the GNU GPL
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-Shophistic Lite WordPress Theme bundles the following third-party resources:
-
+== Resources ==
 Font Awesome icon font, Created by Dave Gandy
 Font Awesome licensed under SIL OFL 1.1 · Code licensed under MIT License
 Source: http://fortawesome.github.io/
