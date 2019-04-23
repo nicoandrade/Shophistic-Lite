@@ -2,8 +2,8 @@
 Contributors: nicoandrade
 Tags: e-commerce, blog, featured-images, two-columns, threaded-comments, custom-menu, left-sidebar, sticky-post, translation-ready, custom-background, full-width-template, rtl-language-support, theme-options
 Requires at least: 4.9.6
-Tested up to: WordPress 5.0.3
-Stable tag: 1.0.21
+Tested up to: WordPress 5.1.1
+Stable tag: 1.0.22
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -42,6 +42,9 @@ https://github.com/nicoandrade/Shophistic-Lite
 
 
 == Changelog ==
+
+= 1.0.22 - 23/04/2019 =
+* Added: WooCommerce 3.6.1 support
 
 = 1.0.21 - 04/02/2019 =
 * Improved: CSS class for custom variations colors
