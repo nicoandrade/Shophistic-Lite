@@ -1,0 +1,15 @@
+{
+    "name": "nicoandrade/shophistic-lite",
+    "description": "Shophistic Lite is the perfect theme for your online shop. With a beautiful and unique design, is responsive and fully compatible with WooCommerce. The easiest way to create your online store and customize it with no coding skills required!",
+    "type": "project",
+    "require": {
+        "wptrt/customize-section-button": "^1.0"
+    },
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Quema Labs",
+            "email": "info@quemalabs.com"
+        }
+    ]
+}
