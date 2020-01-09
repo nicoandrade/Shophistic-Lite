@@ -43,6 +43,9 @@ https://github.com/nicoandrade/Shophistic-Lite
 
 == Changelog ==
 
+= 1.0.24 - 09/01/2020 =
+* Updated: Go PRO button on customizer
+
 = 1.0.23 - 01/07/2019 =
 * Improved: Go PRO button on customizer
 
